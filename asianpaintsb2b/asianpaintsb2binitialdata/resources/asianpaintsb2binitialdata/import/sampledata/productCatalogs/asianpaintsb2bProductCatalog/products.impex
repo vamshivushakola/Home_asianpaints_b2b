@@ -1,0 +1,30 @@
+# ImpEx for Importing Products
+
+# Macros / Replacement Parameter definitions
+$productCatalog=asianpaintsb2bProductCatalog
+$productCatalogName=Asianpaintsb2b Product Catalog
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+$supercategories=supercategories(code, $catalogVersion)
+$baseProduct=baseProduct(code,$catalogVersion)
+$approved=approvalstatus(code)[default='check']
+
+$prices=Europe1prices[translator=de.hybris.platform.europe1.jalo.impex.Europe1PricesTranslator]
+$taxGroup=Europe1PriceFactory_PTG(code)[default=eu-vat-full]
+
+
+# Insert Products
+#INSERT_UPDATE Product;code[unique=true];$supercategories;manufacturerName;manufacturerAID;unit(code);ean;variantType(code);$catalogVersion;$approved
+INSERT_UPDATE Product;code[unique=true];$catalogVersion;unit(code)[default='pieces'];$prices;$supercategories;variantType(code);manufacturerName;$approved;$taxGroup;ean;
+;0001;;pieces;;101;;asianpaintsb2b;;;
+;0002;;pieces;;102;;asianpaintsb2b;;;
+;0003;;pieces;;201;;asianpaintsb2b;;;
+;0004;;pieces;;202;;asianpaintsb2b;;;
+
+;0005;;pieces;;101;;asianpaintsb2b;;;
+;0006;;pieces;;202;;asianpaintsb2b;;;
+;0007;;pieces;;201;;asianpaintsb2b;;;
+;0008;;pieces;;102;;asianpaintsb2b;;;
+;0009;;pieces;;202;;asianpaintsb2b;;;
+;0010;;pieces;;101;;asianpaintsb2b;;;
+;0011;;pieces;;102;;asianpaintsb2b;;;
+

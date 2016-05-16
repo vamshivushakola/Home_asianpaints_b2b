@@ -1,0 +1,20 @@
+# ImpEx for Importing Categories
+
+# Macros / Replacement Parameter definitions
+$productCatalog=asianpaintsb2bProductCatalog
+$productCatalogName=Asianpaintsb2b Product Catalog
+
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+
+# Language
+$lang=en
+
+# Create Categories
+UPDATE Category;code[unique=true];$catalogVersion;name[lang=$lang]
+ ;1;;Asianpaintsb2b Catalogue;
+ ;100;;Paints;
+ ;200;;Painting Aid;
+ ;101;;Interior Paints;
+ ;102;;Exterior Paints;
+ ;201;;Interior Painting Aid;
+ ;202;;Exterior Painting Aid;	

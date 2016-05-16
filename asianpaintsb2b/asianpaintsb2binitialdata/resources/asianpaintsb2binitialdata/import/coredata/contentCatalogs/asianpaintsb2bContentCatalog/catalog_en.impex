@@ -1,0 +1,10 @@
+#
+# Import the Asianpaintsb2b Content Catalog
+#
+
+# Language
+$lang=en
+
+# Create Content Catalog
+UPDATE ContentCatalog;id[unique=true];name[lang=$lang]
+ ;asianpaintsb2bContentCatalog;"Asianpaintsb2b Content Catalog"

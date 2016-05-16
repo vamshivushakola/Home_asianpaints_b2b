@@ -1,0 +1,38 @@
+# ImpEx for Importing Prices
+
+# Macros / Replacement Parameter definitions
+$productCatalog=asianpaintsb2bProductCatalog
+
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default='$productCatalog:Staged']
+$prices=Europe1prices[translator=de.hybris.platform.europe1.jalo.impex.Europe1PricesTranslator]
+$taxGroup=Europe1PriceFactory_PTG(code)[default=jp-vat-full]
+# Set product approval status to Approved only for those products that have prices.
+$approved=approvalstatus(code)[default='approved']
+
+#UPDATE Product;code[unique=true];$prices;$approved;$catalogVersion;Europe1PriceFactory_PTG(code)
+
+UPDATE Product;code[unique=true];$prices;$approved;$catalogVersion;$taxGroup
+;0001
+;0002
+;0003
+;0004
+;0005
+;0006
+;0007
+;0008
+;0009
+;0010
+;0011
+
+INSERT_UPDATE PriceRow;productId[unique=true];unit(code[unique=true,default=pieces]);currency(isocode)[unique=true];price;minqtd;unitFactor;net
+;0001;pieces;USD;55.99;1;1;false
+;0002;pieces;USD;38.99;1;1;false
+;0003;pieces;USD;19.99;1;1;false
+;0004;pieces;USD;29.00;1;1;false
+;0005;pieces;USD;35.00;1;1;false
+;0006;pieces;USD;35.00;1;1;false
+;0007;pieces;USD;24.00;1;1;false
+;0008;pieces;USD;39.00;1;1;false
+;0009;pieces;USD;15.00;1;1;false
+;0010;pieces;USD;49.00;1;1;false
+;0011;pieces;USD;39.00;1;1;false

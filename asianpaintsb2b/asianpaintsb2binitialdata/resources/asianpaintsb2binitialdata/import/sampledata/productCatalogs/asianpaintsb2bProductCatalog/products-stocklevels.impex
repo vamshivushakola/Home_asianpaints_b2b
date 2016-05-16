@@ -1,0 +1,46 @@
+# ImpEx for Importing Products Stock Levels and Warehouses
+
+# Macros / Replacement Parameter definitions
+$productCatalog=asianpaintsb2bProductCatalog
+$productCatalogName=Asianpaintsb2b Product Catalog
+$vendor=asianpaintsb2b
+
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+
+
+INSERT_UPDATE Vendor;code[unique=true]
+;$vendor
+
+INSERT_UPDATE Warehouse;code[unique=true];vendor(code);default[default=true]
+;warehouse_s;asianpaintsb2b;true
+;warehouse_e;asianpaintsb2b;true
+;warehouse_w;asianpaintsb2b;true
+;warehouse_n;asianpaintsb2b;true
+
+INSERT_UPDATE StockLevel;available;warehouse(code)[unique=true];inStockStatus(code);maxPreOrder;maxStockLevelHistoryCount;overSelling;preOrder;productCode[unique=true];reserved
+;100;warehouse_e;forceInStock;0;0;0;0;0001;0
+;100;warehouse_e;forceInStock;0;0;0;0;0002;0
+;100;warehouse_e;forceInStock;1;0;0;0;0003;0
+;100;warehouse_e;forceInStock;1;0;0;0;0004;0
+;100;warehouse_e;forceInStock;1;0;0;0;0005;0
+;100;warehouse_e;forceInStock;1;0;0;0;0006;0
+;100;warehouse_e;forceInStock;1;0;0;0;0007;0
+;100;warehouse_e;forceInStock;1;0;0;0;0008;0
+;100;warehouse_e;forceInStock;1;0;0;0;0009;0
+;100;warehouse_e;forceInStock;1;0;0;0;0010;0
+;100;warehouse_e;forceInStock;1;0;0;0;0011;0
+
+
+
+UPDATE Product;code[unique=true];$catalogVersion;stockLevels(productCode,warehouse(code));vendors(code)
+;0001;;0001:warehouse_e;asianpaintsb2b
+;0002;;0002:warehouse_e;asianpaintsb2b
+;0003;;0003:warehouse_e;asianpaintsb2b
+;0004;;0004:warehouse_e;asianpaintsb2b
+;0005;;0005:warehouse_e;asianpaintsb2b
+;0006;;0006:warehouse_e;asianpaintsb2b
+;0007;;0007:warehouse_e;asianpaintsb2b
+;0008;;0008:warehouse_e;asianpaintsb2b
+;0009;;0009:warehouse_e;asianpaintsb2b
+;0010;;0010:warehouse_e;asianpaintsb2b
+;0011;;0011:warehouse_e;asianpaintsb2b
