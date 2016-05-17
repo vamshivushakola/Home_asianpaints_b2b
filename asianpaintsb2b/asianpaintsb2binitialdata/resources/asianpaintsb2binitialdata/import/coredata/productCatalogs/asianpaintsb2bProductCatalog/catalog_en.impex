@@ -9,4 +9,4 @@ $lang=en
 $productCatalog=asianpaintsb2bProductCatalog
 
 UPDATE Catalog;id[unique=true];name[lang=$lang]
-;$productCatalog;"Asianpaints Product Catalog";
+;$productCatalog;"Asianpaintsb2b Product Catalog";

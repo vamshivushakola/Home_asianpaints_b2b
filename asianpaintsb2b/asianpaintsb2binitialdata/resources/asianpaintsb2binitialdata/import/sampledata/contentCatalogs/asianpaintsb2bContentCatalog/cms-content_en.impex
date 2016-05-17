@@ -1,109 +1,210 @@
 # ImpEx for Importing CMS Content
 # English Localisation
-
 # Macros / Replacement Parameter definitions
-$contentCatalog=__CONTENT_CATALOG_NAME__
-
+$contentCatalog=asianpaintsb2bContentCatalog
+	
 $contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
 $picture=media(code, $contentCV);
-$siteResource=jar:com.asianpaintsb2b.initialdata.setup.InitialDataSystemSetup&/asianpaintsb2binitialdata/import/contentCatalogs/$contentCatalog
-
+$siteResource=jar:com.asianpaintsb2b.initialdata.setup.InitialDataSystemSetup&/asianpaintsb2binitialdata/import/sampledata/contentCatalogs/$contentCatalog
+	
 # Language
 $lang=en
-
+	
 # Site Logo Component
 UPDATE SimpleBannerComponent;$contentCV[unique=true];uid[unique=true];$picture[lang=$lang]
-
+;;SiteLogoComponent;/images/themes/asian-paint-logo.png
+	
 # CMS Link Components
 UPDATE CMSLinkComponent;$contentCV[unique=true];uid[unique=true];linkName[lang=$lang]
+;;AboutAcceleratorLink;"About Commerce Accelerator"
+;;HomepageNavLink;"Home"
+;;PaintsCategoryLink;"Paints"
+;;PaintingAidCategoryLink;"Painting Aid"
+;;InteriorPaintsCategoryLink;"Interior Paints"
+;;ExteriorPaintsCategoryLink;"Exterior Paints"
+;;InteriorPaintingAidCategoryLink;"Interior Painting Aid"
+;;ExteriorPaintingAidCategoryLink;"Exterior Painting Aid"
+	
+;;AgileCommerceBlogLink;"Agile Commerce Blog"
+;;FAQLink;"FAQ"
+;;LinkedInLink;"Linked In"
+;;FacebookLink;"Facebook"
+;;TwitterLink;"Twitter"
+;;ContactUsLink;"Contact Us"
+	
+;;AccountHomeLink;"My Account"
+;;AccountAddressBookLink;"Address Book"
+;;AccountManageAddressLink;"Manage your delivery addresses"
+;;AccountManagePaymentDetailsLink;"Manage your payment details"
+;;AccountOrderHistoryLink;"Order History"
+;;AccountPaymentDetailsLink;"Payment Details"
+;;AccountPersonalDetailsLink;"Update personal details"
+;;AccountProfileLink;"Profile"
+;;AccountUpdatePasswordLink;"Change your password"
+;;AccountViewOrderHistoryLink;"View order history"
+	
+#Coming soon
+;;ComingSoonLink;"Coming Soon"	
 
+####Contact Number
+;;ContactNumberLink;"Update Contact Number"
+
+	
 # Lightbox Banner for Mini Cart (banner is not localizable so we must create a separate banner per language)
 INSERT_UPDATE Media;$contentCV[unique=true];code[unique=true];@media[translator=de.hybris.platform.impex.jalo.media.MediaDataTranslator];mime[default='image/jpeg'];&imageRef;folder(qualifier)[default='images'];altText
+;;Elec_358x45_HomeDeliveryBanner_EN_01.gif;$siteResource/images/banners/site/Elec_358x45_HomeDeliveryBanner_EN_01.gif;;Elec_358x45_HomeDeliveryBanner_EN_01.gif;;"Order before 6pm for next day delivery"
+;;BookOfColors.jpg;$siteResource/images/banners/site/BookOfColors.jpg;;BookOfColors.jpg;;"Book Of Colors"
+;;WoodTech.jpg;$siteResource/images/banners/site/WoodTech.jpg;;WoodTech.jpg;;"Wood Tech"
+;;HomeSolutions.jpg;$siteResource/images/banners/site/HomeSolutions.jpg;;HomeSolutions.jpg;;"Home Solutions"
 
+#;;ComingSoonBanner.jpg;$siteResource/images/banners/site/ComingSoonBanner.jpg;;ComingSoonBanner.jpg;;"Coming Soon"
+
+;;SeeWhatInspiringOthers.jpg;$siteResource/images/banners/site/SeeWhatInspiringOthers.jpg;;SeeWhatInspiringOthers.jpg;;"See What Inspiring Others"
+;;HomeAwakenArtist.jpg;$siteResource/images/banners/site/HomeAwakenArtist.jpg;;HomeAwakenArtist.jpg;;"Home Awaken Artist"
+;;HomeLetSpeak.jpg;$siteResource/images/banners/site/HomeLetSpeak.jpg;;HomeLetSpeak.jpg;;"Home Let Speak"
+	
 UPDATE SimpleBannerComponent;$contentCV[unique=true];uid[unique=true];$picture[lang=$lang]
+;;LightboxHomeDeliveryBannerComponent;Elec_358x45_HomeDeliveryBanner_EN_01.gif
+	
+	
+UPDATE BannerComponent;$contentCV[unique=true];uid[unique=true];headline[lang=$lang];$picture[lang=$lang];content[lang=$lang]
+;;BookOfColorsBanner;Book Of Colors;BookOfColors.jpg;
+;;WoodTechBanner;Wood Tech;WoodTech.jpg;
+;;HomeSolutionsBanner;Home Solutions;HomeSolutions.jpg;
 
+#;;ComingSoonBanner;Coming Soon;ComingSoonBanner.jpg;	
+	
+;;SeeWhatInspiringOthersComponent;;SeeWhatInspiringOthers.jpg
+;;HomeAwakenArtistComponent;;HomeAwakenArtist.jpg
+;;HomeLetSpeakComponent;;HomeLetSpeak.jpg
+	
+	
 # CMS Mini Cart Component
 UPDATE MiniCartComponent;$contentCV[unique=true];uid[unique=true];name;title[lang=$lang]
-
+;;MiniCart;Mini Cart;"YOUR SHOPPING CART"
+	
+	
 # CMS Tab Paragraph Components
 UPDATE CMSTabParagraphComponent;$contentCV[unique=true];uid[unique=true];title[lang=$lang];content[lang=$lang]
-
+	
 # CMS Footer Component
 UPDATE FooterComponent;$contentCV[unique=true];uid[unique=true];notice[lang=$lang]
-
+;;FooterComponent;"© 2016 asianpaintsb2b"
+	
+	
 # CMS Paragraph Components
 UPDATE CMSParagraphComponent;$contentCV[unique=true];uid[unique=true];content[lang=$lang]
-
+	
 # CMS Product References Components
 UPDATE ProductReferencesComponent;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
-
+	
 # CMS PurchasedCategorySuggestionComponent Components
 UPDATE PurchasedCategorySuggestionComponent;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
-
+	
 # CMS CartSuggestion Components
 UPDATE CartSuggestionComponent;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
-
+	
 # Category Pages
 UPDATE CategoryPage;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
-
+#;;Paints;Paints
+#;;InteriorPaints;InteriorPaints
+	
+	
 # CMS Navigation Nodes
 UPDATE CMSNavigationNode;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
-
-
-# FAQ Page
-
+;;AcceleratorNavNode;"Accelerator"
+;;SiteRootNode;SiteRoot
+;;Asianpaintsb2bNavNode;Asianpaintsb2b Site
+;;PaintsNavNode;Paints Products
+;;PaintingAidNavNode;Painting Aid Products
+#;;PaintsTypesNavNode;
+#;;PaintingAidTypesNavNode;
+	
+;;FollowUsNavNode;"Follow Us"
+;;HybrisNavNode;"Asianpaintsb2b"
+	
+;;AccountOrderHistoryNavNode;"Order History"
+;;AccountLeftNavNode;"My Account"
+;;AccountPaymentDetailsNavNode;"Payment Details"
+;;AccountProfileNavNode;"Profile"
+;;AccountAddressBookNavNode;"Address Book"
+	
+# Asianpaintsb2b FAQ Page
+	
 # CMS Paragraph Component (Contact information)
 UPDATE CMSParagraphComponent;$contentCV[unique=true];uid[unique=true];content[lang=en];
-
-
+#;;faqMenuParagraph;"<div class=""nav_column"">	<div class=""title_holder"">		<div class=""title"">			<div class=""title-top"">				<span></span>			</div>		</div>		<h2>Frequently asked questions</h2>	</div>	<div class=""item"">		<ul class=""facet_block indent"">			<li><a href=""#a00"">Returns and refunds</a></li>			<li><a href=""#b00"">Delivery information</a></li>			<li><a href=""#c00"">Registration</a></li>			<li><a href=""#d00"">Your online account</a></li>			<li><a href=""#e00"">Orders</a></li>			<li><a href=""#f00"">Promotions and discounts</a></li>			<li><a href=""#g00"">Product and general Informations</a></li>			<li><a href=""#h00"">Store information</a></li>			<li><a href=""#i00"">Business contacts</a></li>			<li><a href=""#j00"">Buying guides</a></li>			<li><a href=""#k00"">Size guides</a></li>			<li><a href=""#l00"">Privacy and security</a></li>		</ul>	</div></div>";
+#;;faqTextParagraph;"<a name=""00""></a><div class=""textpage textpage-faqs""><div class=""item_container"">		<h2><a name=""a00""></a>Returns and refunds</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>		<div class=""item_container"">		<h2><a name=""b00""></a>Delivery information</h2>		<a class=""faq-menulink"" href=""#b01"">Delivery Options</a>		<a class=""faq-menulink"" href=""#b02"">Delivery times &amp; charges</a>		<a class=""faq-menulink"" href=""#b03"">Order tracking information</a>		<a class=""faq-menulink"" href=""#b04"">Courier status information</a>			<h3><a name=""b01""></a>Delivery Options</h3>		<p>			The delivery options available to you are shown in the Checkout area under Delivery Method.<br><br>			Based on your deliver address, these options may not all be available:			</p><ul>			<li>					<b>Home Delivery</b> - Free UK standard delivery on all orders over L50 within 4 working days (*exceptions may apply)				</li>				<li>					<b>Standard delivery</b> -  1 to 2 business days				</li>				<li>					<b>Other delivery method</b>  &ndash; 3 to 5 business days				</li>				<li>				<b>International delivery</b> &ndash; 7 to 10 business days (not all countries are available)				</li>			</ul>		<p></p>		<h3><a name=""b02""></a>Delivery times &amp; charges</h3>		<p>			We deliver the majority of our orders within 4 working days* for L3.99 or FREE on orders over L50 (*exceptions apply, see table below).			</p><ul>				<li>					Deliveries to UK addresses are made Monday to Friday between 9am to 6pm, excluding Bank Holidays. 				</li>				<li>					Deliveries to the Scottish Highlands and Islands, offshore locations and Northern Ireland may take a little longer.<br>					For delivery to ROI addresses please visit our Irish website at hybris.com				</li>				<li>					Multiple items may be delivered in more than one parcel and at different times.				</li>			</ul>		<p></p>	<h3><a name=""b03""></a>Order tracking information</h3>		<p>			We will send you email updates through every stage of your order. In each email your current order's status will be shown. Each order status is explained in the table below. We deliver most parcels via our courier. You can track these parcels by clicking on the parcel reference link on your email. Once you have clicked on the link you will be directed to the courier website. For information on courier statuses please <a href=""#b04"">click here</a>.		</p>		<table width=""100%"" cellspacing=""0"" cellpadding=""0"" border=""0"">			<tbody>				<tr>					<th>Status</th>					<th>Description</th>				</tr>				<!--ROW 1-->				<tr>					<td class=""blue3"">						<strong>Processing</strong><br>					</td>					<td class=""grey3"">						Your order is being processed.<br>					</td>				</tr>				<!--ROW 2-->	<tr>					<td class=""blue3"">						<strong>Despatched</strong><br>					</td>					<td class=""grey3"">						Your order has been despatched to the courier.<br><br>    For heavy and large products your order is ready to be despatched by our carrier. The carrier will contact you to arrange a suitable date for delivery.<br><br>For Collect from store orders you will receive a further order status update when your item(s) are ready to collect (see below for more information on collect from store statuses)<br><br>					</td>				</tr>				<!--ROW 3-->				<tr>					<td class=""blue3"">						<strong>Cancelled<br>Unable to fulfill<br> payment reversal</strong><br>					</td>					<td class=""grey3"">						Your order has been cancelled due to stock availability, no payment has been taken.<br><br>					</td>				</tr>				<!--ROW 4-->				<tr>					<td class=""blue3"">						<strong>Cancelled<br>Unable to fulfil<br>Payment refunded</strong><br>				</td>					<td class=""grey3"">						Your order has been cancelled due to stock availability. We have processed a refund to your payment card.<br><br>					</td>				</tr>				<!--ROW 5-->				<tr>					<td class=""blue3"">						<strong>Return received</strong><br>					</td>					<td class=""grey3"">Your return has been received. However, due to goods being addressed to the incorrect warehouse there may be a short delay in your refund being processes while the goods are being re-directed.<br><br>					</td>				</tr>				<!--ROW 6-->				<tr>					<td class=""blue3"">						<strong>Order ready for collection</strong><br>					</td>					<td class=""grey3"">						Your order is ready for collection at your chosen store.<br><br><strong><i>Please note:</i></strong> You must collect your order within 14 days of receiving your notification email.<br><br>					</td>				</tr>				<!--ROW 7-->				<tr>					<td class=""blue3"">						<strong>Collected</strong><br>					</td>					<td class=""grey3"">					Your order has been collected.<br><br>					</td>				</tr>				<!--ROW 8-->				<tr>					<td class=""blue3"">						<strong>Return in progress</strong><br>					</td>					<td class=""grey3"">						We are processing your return.<br><br>					</td>				</tr>				<!--ROW 9-->				<tr>					<td class=""blue3"">						<strong>Return refund complete</strong><br>					</td>					<td class=""grey3"">						We have processed your return.<br><br><strong><i>Please note:</i></strong>  Some banks may take longer than others to process refunds.<br><br>					</td>				</tr>			</tbody>		</table>		<p></p>		<h3><a name=""b04""></a>Courier status information</h3>		<p></p>		<table width=""100%"" cellspacing=""0"" cellpadding=""0"" border=""0"">			<tbody>				<tr>					<th>Status</th>					<th>Description</th>				</tr>			<!--ROW 1-->				<tr>					<td class=""blue3"">						<strong>Order generated</strong><br>					</td>					<td class=""grey3"">						Your order is ready for delivery and has entered into the courier system.<br>					</td>				</tr>				<!--ROW 2-->				<tr>					<td class=""blue3"">						<strong>Receipt at depot </strong><br>					</td>					<td class=""grey3"">					Your parcel has been received at the depot. <br><br>					</td>				</tr>				<!--ROW 3-->				<tr>					<td class=""blue3"">						<strong>Processed at depot</strong><br>					</td>					<td class=""grey3"">						Your parcel has processed through the depot operation and is ready for onward despatch to the courier.<br><br>					</td>				</tr>				<!--ROW 4-->				<tr>					<td class=""blue3"">						<strong>Out for delivery to courier</strong><br>					</td>					<td class=""grey3"">						Your parcel has left the depot for delivery to courier.<br><br>					</td>				</tr>				<!--ROW 5-->				<tr>					<td class=""blue3"">						<strong>Courier to re-attempt</strong><br>					</td>					<td class=""grey3"">						The courier has attempted to deliver your parcel and will try again. You will receive a card to confirm delivery has been attempted.<br><br>					</td>				</tr>			<!--ROW 6-->				<tr>					<td class=""blue3"">						<strong>Delivered to</strong><br>					</td>					<td class=""grey3"">						Your parcel has been delivered.<br><br>					</td>				</tr>			</tbody>		</table>		<p></p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>		<div class=""item_container"">		<h2><a name=""c00""></a>Registration</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>	<div class=""item_container"">		<h2><a name=""d00""></a>Your online account</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>	<div class=""item_container"">		<h2><a name=""e00""></a>Orders</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>	<div class=""item_container"">		<h2><a name=""f00""></a>Promotions and discounts</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>	<div class=""item_container"">		<h2><a name=""g00""></a>Product and general informations</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>	<div class=""item_container"">		<h2><a name=""h00""></a>Store information</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>	<div class=""item_container"">		<h2><a name=""i00""></a>Business contacts</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>		<div class=""item_container"">		<h2><a name=""j00""></a>Buying guides</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>		<div class=""item_container"">		<h2><a name=""k00""></a>Size guides</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div>		<div class=""item_container"">		<h2><a name=""l00""></a>Privacy and security</h2>		<p>Text</p>		<a class=""pagetop-link"" href=""#00"">back to top</a>	</div></div>";
+	
+# Asianpaintsb2b Order Expired Page
+UPDATE CMSParagraphComponent;$contentCV[unique=true];uid[unique=true];content[lang=en];
+;;orderExpiredMenuParagraph;;
+;;orderExpiredTextParagraph;"<div class='cms-content order-expired'><div class='information_message neutral'><span class='single'></span><p>This page has expired.</p></div><h2>Dear Customer,</h2><p>Order Status for guest users are only kept for 3 months following the date the order was placed.<br>If you have not received your delivery or have other inquiries, please contact our Customer Service Dept.</p><h3>Be prepared with:</h3><ul class='bullet-list'><li>Your Name</li><li>Order Number (Your Order Number can be found on the confirmation email sent shortly after your order was placed.)</li><li>Order Delivery Address or Pick Up in Store Location</li></ul><p>Our Customer Service professionals will be happy to update you on the status of your order.</p><p class='cms-content-emphasized-big'>Thank you for shopping at hybrisstore.</p></div>";
+	
+	
 # Terms and Conditions Page
-
+	
 # CMS Paragraph Component (Contact information)
 UPDATE CMSParagraphComponent;$contentCV[unique=true];uid[unique=true];content[lang=en];
+	
+	
+UPDATE ProductCarouselComponent;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
+;;Asianpaintsb2bHomepageProductCarouselComponent;Our Bestselling Products
 
-
-# Homepage
-
+# Asianpaintsb2b Homepage
+	
 # Media Content
 INSERT_UPDATE Media;$contentCV[unique=true];code[unique=true];@media[translator=de.hybris.platform.impex.jalo.media.MediaDataTranslator];mime[default='image/jpeg'];&imageRef;folder(qualifier)[default='images'];altText
-
-
+#;;Elec_948x60_HomeDeliveryBanner_EN_01.jpg;$siteResource/images/banners/homepage/Elec_948x60_HomeDeliveryBanner_EN_01.jpg;;Elec_948x60_HomeDeliveryBanner_EN_01.jpg;;"Order before 6pm for next day delivery >"	
+	
 # CMS Banner Components
 UPDATE Media;$contentCV[unique=true];code[unique=true];@media[translator=de.hybris.platform.impex.jalo.media.MediaDataTranslator];mime[default='image/jpeg'];altText;&imageRef
-
+	
+	
+	
 UPDATE SimpleBannerComponent;$contentCV[unique=true];uid[unique=true];$picture[lang=$lang]
+#;;NextDayDeliveryBanner;Elec_948x60_HomeDeliveryBanner_EN_01.jpg
 
 UPDATE BannerComponent;$contentCV[unique=true];uid[unique=true];headline[lang=$lang];$picture[lang=$lang];content[lang=$lang]
-
+	
 UPDATE ProductCarouselComponent;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
-
-
+	
+	
 # Camera Accessories and Supplies Category Landing Page
-
+	
 UPDATE CategoryPage;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
-
+	
 INSERT_UPDATE Media;$contentCV[unique=true];code[unique=true];@media[translator=de.hybris.platform.impex.jalo.media.MediaDataTranslator];mime[default='image/jpeg'];folder(qualifier)[default='images'];altText
-
+	
 UPDATE CategoryFeatureComponent;$contentCV[unique=true];uid[unique=true];title[lang=$lang];$picture[lang=$lang];description[lang=$lang]
-
+	
 UPDATE SimpleBannerComponent;$contentCV[unique=true];uid[unique=true];$picture[lang=$lang]
-
+	
 # Search Results Page
-
+	
 # Media Content
 INSERT_UPDATE Media;$contentCV[unique=true];code[unique=true];@media[translator=de.hybris.platform.impex.jalo.media.MediaDataTranslator];mime[default='image/jpeg'];folder(qualifier)[default='images'];altText
-
+	
 UPDATE SimpleBannerComponent;$contentCV[unique=true];uid[unique=true];$picture[lang=$lang]
-
+	
 UPDATE CMSParagraphComponent;$contentCV[unique=true];uid[unique=true];content[lang=$lang]
-
+;;EmptyCartParagraphComponent;"<h2>Your shopping cart is empty</h2><p>Suggestions</p><ul><li>Browse our products by selecting a category above</li></ul>"
+	
+	
 # Cart Page
-
+	
 # Media Content
 INSERT_UPDATE Media;$contentCV[unique=true];code[unique=true];@media[translator=de.hybris.platform.impex.jalo.media.MediaDataTranslator];mime[default='image/jpeg'];folder(qualifier)[default='images'];altText
-
+;;Elec_148x300_HelpBanner_EN_01.jpg;$siteResource/images/banners/site/Elec_148x300_HelpBanner_EN_01.jpg;;;"Need Help? Click here for help with checking out"
+;;Elec_788x120_HomeDeliveryBanner_EN_01.jpg;$siteResource/images/banners/site/Elec_788x120_HomeDeliveryBanner_EN_01.jpg;;;"Order before 6pm for next day delivery"
+	
 UPDATE SimpleBannerComponent;$contentCV[unique=true];uid[unique=true];$picture[lang=$lang]
-
+;;HelpBanner;Elec_148x300_HelpBanner_EN_01.jpg
+;;NextDayDeliveryBanner120;Elec_788x120_HomeDeliveryBanner_EN_01.jpg
+	
+	
 UPDATE CMSParagraphComponent;$contentCV[unique=true];uid[unique=true];content[lang=$lang]
-
-
+;;EmptyCartParagraphComponent;"<h2>Your shopping cart is empty</h2><p>Suggestions</p><ul><li>Browse our products by selecting a category above</li></ul>"
+;;HelpParagraphComponent;"<strong>Need Help with your checkout process?</strong> <span>Contact Us or Call phone number.</span>"
+	
+	
