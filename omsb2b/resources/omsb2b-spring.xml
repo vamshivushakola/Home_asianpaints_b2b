@@ -49,4 +49,12 @@
     <alias name="defaultCheckOrderService" alias="checkOrderService"/>
     <bean id="defaultCheckOrderService" class="de.hybris.platform.omsb2b.impl.DefaultCheckOrderService" />
 
+	<alias name="defaultApprovalProcessCompleteAction" alias="approvalProcessCompleteAction"/>
+    <bean id="defaultApprovalProcessCompleteAction"
+          class="de.hybris.platform.omsb2b.actions.b2b.OmsApprovalProcessCompleteAction"
+            parent="abstractAction">
+        <property name="businessProcessService" ref="businessProcessService"/>
+        <property name="eventService" ref="eventService"/>
+    </bean>
+	
 </beans>

@@ -8,7 +8,7 @@
 <%@ taglib prefix="theme" tagdir="/WEB-INF/tags/shared/theme" %>
 <%@ taglib prefix="ycommerce" uri="http://hybris.com/tld/ycommercetags" %>
 
-<div class="userRegister">
+<%-- <div class="userRegister">
 	<div class="headline"><spring:theme code="register.new.customer" /></div>
 	<div class="required right"><spring:theme code="form.required"/></div>
 	<div class="description"><spring:theme code="register.description"/></div>
@@ -31,7 +31,7 @@
 			</ycommerce:testId>
 		</div>
 	</form:form>
-</div>
+</div> --%>
 
 
 

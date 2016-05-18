@@ -1,0 +1,19 @@
+$contentCatalog=asianpaintsb2bContentCatalog
+$contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
+$jarResourceCms=jar:com.braintree.constants.Braintreeb2baddonConstants&/braintreeb2baddon/import/cockpit/cmscockpit
+$siteResource=jar:com.braintree.constants.Braintreeb2baddonConstants&/braintreeb2baddon/import/contentCatalogs/$contentCatalog
+
+# Language
+$lang=en
+
+# PayPal Standard UI Image Component
+INSERT_UPDATE JspIncludeComponent;$contentCV[unique=true];uid[unique=true];name;page;&componentRef
+;;PayPalCheckoutComponent;PayPal Checkout Display Component;/WEB-INF/views/addons/braintreeb2baddon/desktop/pages/cart/checkoutDisplay.jsp;PayPalCheckoutComponent
+;;PayPalAccountMyReplenishmentDetailsComponent;PayPal Account My Replenishment Order Details Component;/WEB-INF/views/addons/braintreeb2baddon/desktop/pages/account/accountReplenishmentScheduleDetails.jsp;PayPalAccountMyReplenishmentDetailsComponent
+;;BrainTreeAccountPaymentDetailsComponent;Brain Tree Account Payment Details Component;/WEB-INF/views/addons/braintreeb2baddon/desktop/pages/account/accountPaymentInfoPage.jsp;BrainTreeAccountPaymentDetailsComponent
+
+INSERT_UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];name;active;cmsComponents(uid,$contentCV)
+;;BottomContentSlot-cartPage;Bottom Content Slot for Cart Page;true;PayPalCheckoutComponent,CartSuggestions
+;;BodyContent-my-replenishment-details;Body Content Slot for My Replenishment Order Details;true;PayPalAccountMyReplenishmentDetailsComponent
+;;BodyContent-payment-details;Body Content Slot for My Account payment-details;true;BrainTreeAccountPaymentDetailsComponent
+

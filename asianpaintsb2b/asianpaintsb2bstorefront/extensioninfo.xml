@@ -13,7 +13,8 @@
 --><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
 
 	<extension abstractclassprefix="Generated" classprefix="Asianpaintsb2bStorefront" name="asianpaintsb2bstorefront">
-		<requires-extension name="captchaaddon"/>
+		<requires-extension name="braintreeb2baddon"/>
+<requires-extension name="captchaaddon"/>
 <requires-extension name="assistedservicestorefront"/>
 <requires-extension name="accountsummaryaddon"/>
 <requires-extension name="secureportaladdon"/>

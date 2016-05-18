@@ -1,0 +1,146 @@
+#number {
+	margin-right: 20px;
+	width: 244px;
+	position: relative;
+	height: 2em;
+	border: 1px solid #ddd;
+	padding: 0 0.5em;
+	background-color: white;
+}
+
+#cvv {
+	margin-right: 20px;
+	width: 244px;
+	position: relative;
+	height: 2em;
+	border: 1px solid #ddd;
+	padding: 0 0.5em;
+	background-color: white;
+}
+
+#expiration-date {
+	margin-right: 20px;
+	width: 244px;
+	position: relative;
+	height: 2em;
+	border: 1px solid #ddd;
+	padding: 0 0.5em;
+	background-color: white;
+}
+
+#checkoutContentPanelPayment {
+	border: 1px dotted #A5A5A5;
+	padding: 10px 10px 10px 10px;
+	position: relative;
+	margin: 0 0 10px 0;
+}
+
+#checkoutContentPanel {
+	margin: 0 0 10px 0;
+	padding: 12px 20px !important;
+}
+
+#headlineDiv .headline {
+	border-bottom: 1px #A5A5A5;
+	font-size: 1.2em;
+	font-weight: bold;
+	height: 39px;
+	line-height: 39px;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+
+#checkoutContentPanel.payWithCardSection {
+	margin: 0;
+}
+
+.paypalselection, .paypalurl, .customSingleUseCheckbox  {
+	margin-top: 16px;
+}
+
+.paypalselection, .paypalimage .cmsimage, .paypalurl { float: left; }
+
+.paypalselection {
+	margin-right: 7px;
+}
+
+#number.braintree-hosted-fields-invalid {
+	border: 1px solid #FFB6C1;
+}
+
+#cvv.braintree-hosted-fields-invalid {
+	border: 1px solid #FFB6C1;
+}
+
+#expiration-date.braintree-hosted-fields-invalid {
+	border: 1px solid #FFB6C1;
+}
+
+.disableClick {
+	pointer-events: none;
+}
+
+.orSeparator {
+	text-align: center;
+}
+
+.buttonCustom {
+	width: 100%;
+	margin-top: 0px !important;
+}
+
+li.paymentMethodLeft {
+	float: left;
+}
+
+li.paymentMethodRight {
+	float: right;
+	margin-left: 10px;
+}
+
+.payPalCheckoutMiniCartImage {
+
+}
+#paypayShortcut {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 170px;
+	height: 40px;
+	vertical-align: top;
+}
+
+#orSeparator {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 95px;
+	height: 40px;
+	vertical-align: top;
+}
+
+#standardCheckout {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 92px;
+	height: 40px;
+	vertical-align: top;
+}
+
+.buttonMini {
+margin: 0 0 0 0 !important;
+float: right !important;
+}
+
+.paymentEntry {
+ width: 385px !important;
+}
+
+#cardForn{
+ float: inherit !important;
+}
+
+.longWordBreak{
+ word-break: break-all;
+}

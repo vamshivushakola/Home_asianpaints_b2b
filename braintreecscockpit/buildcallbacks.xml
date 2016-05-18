@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+ [y] hybris Platform
+
+ Copyright (c) 2000-2013 hybris AG
+ All rights reserved.
+
+ This software is the confidential and proprietary information of hybris
+ ("Confidential Information"). You shall not disclose such Confidential
+ Information and shall use it only in accordance with the terms of the
+ license agreement you entered into with hybris.
+
+  
+-->
+<project name="braintreecscockpit_buildcallbacks">
+
+    <!--
+        Called whenever 'ant ear' is used. this callback can be used to modify the content of the ear file
+
+         ${ear.path}: 			path to ear
+     -->
+    <macrodef name="braintreecscockpit_before_ear">
+        <sequential>
+
+            <!-- you can do anything before the EAR file is being packed -->
+
+        </sequential>
+    </macrodef>
+    <macrodef name="braintreecscockpit_after_build">
+        <sequential>
+            <echo level="info" message="Start copying custom cscockpit templates to cscockpit..."/>
+            <copy todir="${ext.cscockpit.path}/web/webroot/cscockpit/templates">
+                <fileset dir="${ext.braintreecscockpit.path}/resources/braintreecscockpit/cscockpit/templates">
+                    <include name="**/**.*"/>
+                </fileset>
+            </copy>
+            <echo level="info" message="Start copying custom css to braintreecscockpit..."/>
+            <copy todir="${ext.cscockpit.path}/web/webroot/cscockpit/css">
+                <fileset dir="${ext.braintreecscockpit.path}/resources/braintreecscockpit/cscockpit/css">
+                    <include name="**/**.*"/>
+                </fileset>
+            </copy>
+            <echo level="info" message="Start copying index.zul with custom css to braintreecscockpit..."/>
+            <copy todir="${ext.cscockpit.path}/web/webroot">
+                <fileset dir="${ext.braintreecscockpit.path}/resources/braintreecscockpit/cscockpit">
+                    <include name="**/index.zul"/>
+                </fileset>
+            </copy>
+        </sequential>
+    </macrodef>
+
+</project>

@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+    <title>Braintree Payment Form</title>
+    <style type="text/css">
+        #number {
+        margin-right: 20px;
+        width: 244px;
+        position: relative;
+        height: 2em;
+        border: 1px solid #ddd;
+        padding: 0 0.5em;
+        background-color: white;
+        }
+
+        #cvv {
+        margin-right: 20px;
+        width: 244px;
+        position: relative;
+        height: 2em;
+        border: 1px solid #ddd;
+        padding: 0 0.5em;
+        background-color: white;
+        }
+        #expiration-date {
+        margin-right: 20px;
+        width: 244px;
+        position: relative;
+        height: 2em;
+        border: 1px solid #ddd;
+        padding: 0 0.5em;
+        background-color: white;
+        }
+        #number.braintree-hosted-fields-invalid {
+        border: 1px solid #FFB6C1;
+        }
+
+        #cvv.braintree-hosted-fields-invalid {
+        border: 1px solid #FFB6C1;
+        }
+
+        #expiration-date.braintree-hosted-fields-invalid {
+        border: 1px solid #FFB6C1;
+        }
+
+        .z-button {
+        cursor:pointer;
+        font-family: Arial,Helvetica,sans-serif;
+        background-color:#202b4a;
+        background-image:url(images/button_back.gif);
+        background-repeat:repeat-x;
+        border: 1px solid #ddd;
+        padding: 4px 8px;
+        color: #FFFFFF;
+        font-size: 11px;
+        margin-top: 15px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -o-box-border-radius: 3px;
+        -icab-border-radius: 3px;
+        -khtml-border-radius: 3px;
+        }
+
+        .z-button.btnblue {
+        background-image:url(images/BUTTON_BLUE_back.gif);
+        }
+
+        #dialogoverlay{
+        display: none;
+        opacity: .8;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background: #383A3C;
+        width: 100%;;
+        }
+        #dialogbox{
+        display: none;
+        position: fixed;
+        border-radius:5px;
+        border-style: initial;
+        width:300px;
+      }
+      #dialogbox > div{  margin:1px; }
+      #dialogbox > div > #dialogboxhead{ background: #C2C2C6; font-size: 12px; font-weight: bold; padding:5px;}
+      #dialogbox > div > #dialogboxbody{ background: #FFFFFF; padding:8px; text-align:center; font-size: 14px;}
+      #dialogbox > div > #dialogboxfoot{ background: #FFFFFF; text-align:center; }
+
+    </style>
+</head>
+<body>
+<div>
+    <form action="/bttraining/payment" method="POST"
+          id="braintree-payment-form">
+        <div id="number"></div>
+        <br/>
+
+        <div id="cvv"></div>
+        <br/>
+
+        <div id="expiration-date"></div>
+        <input type="submit" id="submit" value="Validate Credit Card" class="z-button z-button.btnblue">
+    </form>
+</div>
+
+<script src="https://js.braintreegateway.com/js/braintree-2.18.0.min.js"></script>
+<script>
+  // Get client token from server side
+  
+  setCookie("pm_nonce","");
+  var nonce;
+  
+  var clientToken = getCookie("clientToken");
+  clientToken = clientToken.replace(/"/g, "");
+  var b = braintree.setup(clientToken, "custom", {
+   id : "braintree-payment-form",
+    hostedFields : {
+    styles : {
+     // Styling element state
+     ":focus" : {
+      "color" : "blue"
+     },
+     ".valid" : {
+      "color" : "green"
+     },
+     ".invalid" : {
+      "color" : "red"
+     }
+    },
+    number : {
+     selector : "#number",
+     placeholder : "Card Number"
+    },
+    expirationDate : {
+     selector : "#expiration-date",
+     placeholder : "MM/YY"
+    },
+    cvv : {
+     selector : "#cvv",
+     placeholder : "CVV"
+    }
+   },
+    onPaymentMethodReceived : function(response) {
+    paymentMethodResponse = response;
+    nonce= response.nonce;
+    setCookie("pm_nonce",nonce);
+    Alert.render("Credit card validated successfuly. Now you can create Paymment Method");
+    }}
+  );
+
+function setCookie(cname, cvalue) {
+    document.cookie = cname + "=" + cvalue + "; path=/cscockpit/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+    }
+    return "";
+}
+
+</script>
+
+<script>
+function CustomAlert(){
+    this.render = function(dialog){
+        var winW = window.innerWidth;
+        var winH = window.innerHeight;
+        var dialogoverlay = document.getElementById('dialogoverlay');
+        var dialogbox = document.getElementById('dialogbox');
+        dialogoverlay.style.display = "block";
+        dialogoverlay.style.height = winH+"px";
+        dialogbox.style.left = (winW/2) - (350 * .5)+"px";
+        dialogbox.style.top = "20px";
+        dialogbox.style.display = "block";
+        document.getElementById('dialogboxhead').innerHTML = "Validated successfuly";
+        document.getElementById('dialogboxbody').innerHTML = dialog;
+        document.getElementById('dialogboxfoot').innerHTML = '<button onclick="Alert.ok()" class="z-button z-button.btnblue" style="margin-bottom: 5px; margin-top: 1px;">OK</button>';
+    }
+  this.ok = function(){
+    document.getElementById('dialogbox').style.display = "none";
+    document.getElementById('dialogoverlay').style.display = "none";
+  }
+}
+var Alert = new CustomAlert();
+</script>
+<div id="dialogoverlay"></div>
+<div id="dialogbox">
+    <div>
+        <div id="dialogboxhead"></div>
+        <div id="dialogboxbody"></div>
+        <div id="dialogboxfoot"></div>
+    </div>
+</div>
+</body>
+</html>

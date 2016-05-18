@@ -1,0 +1,150 @@
+.btTextField {
+    float:left;
+    width:150px;
+}
+
+.btLabelField {
+    display: inline-block;
+    padding-right: 4px;
+    width:150px;
+    float:left;
+}
+
+.btCustomerAddressesListBoxLabelField {
+    display: block;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    width:150px;
+    font-size: 14px;
+}
+
+.btCustomerAddressesListBoxDiv {
+    margin: 8px
+}
+
+.btCountryListBoxLabel {
+    display: inline-block;
+    padding-right: 4px;
+    width:150px;
+    float:left;
+    padding-bottom: 8px;
+}
+
+.btCustomDiv,.btNewTransactionDiv,.btCustomerEditDiv,.btCustomerPaymentMethodDiv,.btRegionDiv {
+    display:block;
+    text-align:left;
+    clear:both;
+    float:left;
+    padding:5px;
+}
+
+.btCustomDiv.btUpdateCustomerAddressDiv {
+    margin: 4px;
+}
+
+.btUpdateCustomerAddressLabel {
+    display: block;
+    padding-right: 14px;
+    padding-bottom: 4px;
+    width:150px;
+    font-size: 12px
+}
+
+.btNewTransactionTextFieldLabel {
+    color: #666;
+    font-size: 10px;
+}
+
+.btNewTransactionCustomPrettyTitleLabel,.btPrettyTitleLabel {
+    color:#107C10;
+    font-size:14px;
+}
+
+.btNewTransactionCustomPrettyTitleDiv,.btPrettyTitleDiv {
+    text-align:left;
+    clear:both;
+    padding:5px 10px 5px 0;
+}
+
+.btTransactionActionDiv {
+    padding: 10px 10px 5px 10px;
+    display: block;
+    text-align: left;
+    clear: both;
+    float:left;
+}
+
+.btCustomerDiv,.btTransactionActionButtonDiv,.btNewTransactionCustomButton,.btCustomerRefundButton,.btCustomerAddressButton {
+    text-align: right;
+    clear: both;
+    padding: 5px 10px 5px 0;
+}
+
+.btCustomerCheckbox {
+    margin: 10px;
+}
+
+.btCustomPaymentMethodHelpLabel {
+    color:#7C7B7B;
+    font-size:13px;
+    margin:8px 0 10px;
+}
+
+.btStateRegionLabel {
+    display: block;
+    padding-right: 4px;
+    width:150px;
+    padding-bottom: 8px;
+}
+
+.btStateRegionListBox {
+    display: block;
+    width:310px
+}
+
+.btProvinceRegionListBox {
+    display: block;
+    width:304px;
+}
+
+.btRegionTextFieldLabel {
+    display: inline-block;
+    padding-right: 4px;
+    width:150px; float:left;
+}
+
+.btRegionTextFieldBox {
+    float:left;
+    width:150px;
+}
+
+.btTransactionDiv {
+    padding: 10px 20px 50px 20px;
+}
+
+.btTransactionRenderRowDiv {
+    color: #666;
+    font-size: 14px;
+    display: block;
+    padding: 2px 0;
+    text-align: left;
+    clear: both; float:left;
+}
+
+.btTransactionTitleLabel {
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 3px 4px 3px 0;
+    width:175px; float:left;
+}
+
+
+.btTransactionValueLabel {
+    padding: 3px 0;
+    color: #333;
+    font-size: 14px;
+    float:left;
+    width:100px;
+}

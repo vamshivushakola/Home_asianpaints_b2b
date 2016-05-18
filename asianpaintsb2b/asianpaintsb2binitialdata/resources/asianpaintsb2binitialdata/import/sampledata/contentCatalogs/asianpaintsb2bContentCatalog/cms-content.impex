@@ -206,7 +206,7 @@ INSERT_UPDATE SearchResultsListComponent;$contentCV[unique=true];uid[unique=true
 # Content Slots
 INSERT_UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];cmsComponents(&componentRef)
 ;;VariantSelectorSlot;VariantSelector
-#;;SiteLogoSlot;SiteLogoComponent
+;;SiteLogoSlot;SiteLogoComponent
 ;;HomepageNavLinkSlot;HomepageNavLink
 ;;MiniCartSlot;MiniCart
 ;;NavigationBarSlot;NavBarComponent

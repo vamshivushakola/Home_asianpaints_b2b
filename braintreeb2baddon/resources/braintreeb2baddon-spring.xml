@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- [y] hybris Platform Copyright (c) 2000-2015 hybris AG All rights reserved. 
+	This software is the confidential and proprietary information of hybris ("Confidential 
+	Information"). You shall not disclose such Confidential Information and shall 
+	use it only in accordance with the terms of the license agreement you entered 
+	into with hybris. -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:annotation-config />
+
+	<bean id="braintreeb2baddonCoreDataImportedEventListener" parent="abstractCoreDataImportedEventListener">
+		<property name="supportedChannels">
+			<list value-type="de.hybris.platform.commerceservices.enums.SiteChannel">
+				<value>B2C</value>
+				<!-- <value>B2B</value> -->
+			</list>
+		</property>
+		<property name="addonExtensionMetadata">
+			<bean class="de.hybris.platform.addonsupport.data.AddonExtensionMetadata">
+				<property name="suffixChannel" value="false" />
+				<property name="baseExtensionName" value="braintreeb2baddon" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="braintreeb2baddonSampleDataEventListener" parent="abstractGenericAddOnSampleDataEventListener">
+		<property name="extensionName" value="braintreeb2baddon" />
+	</bean>
+
+	<alias name="brainTreeB2BCheckoutFacade" alias="defaultB2BAcceleratorCheckoutFacade" />
+	<bean id="brainTreeB2BCheckoutFacade" class="com.braintree.facade.BrainTreeB2BCheckoutFacade"
+		parent="defaultB2BCheckoutFacade">
+		<property name="acceleratorCheckoutFacade" ref="brainTreeCheckoutFacade" />
+	</bean>
+
+	<alias name="defaultBrainTreePaymentInfoConverter" alias="brainTreePaymentInfoConverter" />
+	<bean id="defaultBrainTreePaymentInfoConverter" parent="abstractPopulatingConverter">
+		<property name="targetClass"
+			value="de.hybris.platform.commercefacades.order.data.CCPaymentInfoData" />
+		<property name="populators">
+			<list>
+				<ref bean="brainTreePaymentInfoPopulator" />
+			</list>
+		</property>
+	</bean>
+
+	<alias name="defaultBrainTreePaymentInfoPopulator" alias="brainTreePaymentInfoPopulator" />
+	<bean id="defaultBrainTreePaymentInfoPopulator"
+		class="com.braintree.converters.populators.impl.BrainTreePaymentInfoPopulator">
+		<property name="addressConverter" ref="addressConverter" />
+	</bean>
+
+	<bean id="brainTreePaymentDetailsValidator"
+		class="com.braintree.payment.validators.BrainTreePaymentDetailsValidator" />
+
+	<alias name="b2bBrainTreeCartPopulator" alias="b2bCartPopulator" />
+	<bean id="b2bBrainTreeCartPopulator"
+		class="com.braintree.facade.order.converters.populator.B2BBrainTreeCartPopulator"
+		parent="baseOrderPopulator">
+		<property name="brainTreePaymentInfoConverter" ref="brainTreePaymentInfoConverter" />
+		<property name="b2BCostCenterConverter" ref="b2bCostCenterConverter"/>
+		<property name="b2bPaymentTypeConverter" ref="paymentTypeDataConverter"/>
+		<property name="b2BCommentConverter" ref="b2bCommentConverter"/>
+		<property name="b2bCustomerConverter" ref="customerConverter"/>
+		<property name="b2bOrderService" ref="b2bOrderService"/>
+	</bean>
+	
+
+	<bean id="brainTreeCoreSystemSetup" class="com.braintree.core.setup.BrainTreeCoreSystemSetup"
+		parent="abstractCoreSystemSetup" />
+
+		
+	<alias name="brainTreeAuthorizePaymentAction" alias="authorizePaymentAction"/>
+	<bean id="brainTreeAuthorizePaymentAction" class="com.braintree.actions.replenishment.BrainTreeAuthorizePaymentAction" parent="abstractAction">
+		<property name="commerceCheckoutService" ref="b2bCommerceCheckoutService"/>
+        <property name="impersonationService" ref="impersonationService"/>
+        <property name="brainTreeTransactionService" ref="brainTreeTransactionService"/>
+	</bean>
+	
+</beans>
