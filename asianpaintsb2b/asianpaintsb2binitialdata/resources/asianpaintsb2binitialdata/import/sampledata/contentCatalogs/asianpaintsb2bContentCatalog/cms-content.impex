@@ -755,8 +755,6 @@ INSERT_UPDATE ContentSlotForPage;$contentCV[unique=true];uid[unique=true];positi
 #;;SideContent-update-contactNumber;SideContent;;SideContent-update-contactNumber;;;
 #;;BodyContent-update-contactNumber;BodyContent;;BodyContent-update-contactNumber;;;
 
-
-
 ##### ProductListPage #####
 # ContentSlot
 INSERT_UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];name;active;cmsComponents(&componentRef);;;

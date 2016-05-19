@@ -77,6 +77,36 @@ public class GeneratedTypeInitializer extends AbstractTypeInitializer
 		);
 	
 		createItemType(
+			"Asianpaintsb2bProduct",
+			"Product",
+			com.asianpaintsb2b.core.jalo.Asianpaintsb2bProduct.class,
+			null,
+			false,
+			null,
+			false
+		);
+	
+		createItemType(
+			"Asianpaintsb2bStyleVariantProduct",
+			"VariantProduct",
+			com.asianpaintsb2b.core.jalo.Asianpaintsb2bStyleVariantProduct.class,
+			null,
+			false,
+			null,
+			false
+		);
+	
+		createItemType(
+			"Asianpaintsb2bSizeVariantProduct",
+			"Asianpaintsb2bStyleVariantProduct",
+			com.asianpaintsb2b.core.jalo.Asianpaintsb2bSizeVariantProduct.class,
+			null,
+			false,
+			null,
+			false
+		);
+	
+		createItemType(
 			"ElectronicsColorVariantProduct",
 			"VariantProduct",
 			com.asianpaintsb2b.core.jalo.ElectronicsColorVariantProduct.class,
@@ -123,6 +153,12 @@ public class GeneratedTypeInitializer extends AbstractTypeInitializer
 				single_createattr_ApparelStyleVariantProduct_swatchColors();
 			
 				single_createattr_ApparelSizeVariantProduct_size();
+			
+				single_createattr_Asianpaintsb2bStyleVariantProduct_style();
+			
+				single_createattr_Asianpaintsb2bStyleVariantProduct_swatchColors();
+			
+				single_createattr_Asianpaintsb2bSizeVariantProduct_size();
 			
 				single_createattr_ElectronicsColorVariantProduct_color();
 			
@@ -188,6 +224,57 @@ public class GeneratedTypeInitializer extends AbstractTypeInitializer
 					
 				createPropertyAttribute(
 					"ApparelSizeVariantProduct", 
+					"size",  
+					null,
+					"localized:java.lang.String",
+					de.hybris.platform.jalo.type.AttributeDescriptor.READ_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.WRITE_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.OPTIONAL_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.REMOVE_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.SEARCH_FLAG,
+					"VariantAttributeDescriptor",
+					sqlColumnDefinitions
+				);
+			
+	}
+	
+	public void single_createattr_Asianpaintsb2bStyleVariantProduct_style() throws JaloBusinessException
+	{
+		
+						Map sqlColumnDefinitions = null;
+					
+				createPropertyAttribute(
+					"Asianpaintsb2bStyleVariantProduct", 
+					"style",  
+					null,
+					"localized:java.lang.String",
+					de.hybris.platform.jalo.type.AttributeDescriptor.READ_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.WRITE_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.OPTIONAL_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.REMOVE_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.SEARCH_FLAG,
+					"VariantAttributeDescriptor",
+					sqlColumnDefinitions
+				);
+			
+	}
+	
+	public void single_createattr_Asianpaintsb2bStyleVariantProduct_swatchColors() throws JaloBusinessException
+	{
+		
+						Map sqlColumnDefinitions = null;
+					
+				createPropertyAttribute(
+					"Asianpaintsb2bStyleVariantProduct", 
+					"swatchColors",  
+					null,
+					"SwatchColorSet",
+					de.hybris.platform.jalo.type.AttributeDescriptor.READ_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.WRITE_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.OPTIONAL_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.REMOVE_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.SEARCH_FLAG,
+					null,
+					sqlColumnDefinitions
+				);
+			
+	}
+	
+	public void single_createattr_Asianpaintsb2bSizeVariantProduct_size() throws JaloBusinessException
+	{
+		
+						Map sqlColumnDefinitions = null;
+					
+				createPropertyAttribute(
+					"Asianpaintsb2bSizeVariantProduct", 
 					"size",  
 					null,
 					"localized:java.lang.String",
@@ -292,6 +379,51 @@ public class GeneratedTypeInitializer extends AbstractTypeInitializer
 				}
 			
 			single_setAttributeProperties_ApparelSizeVariantProduct_size();
+		
+				{
+				Map customPropsMap = new HashMap();
+				
+				setItemTypeProperties(
+					"Asianpaintsb2bProduct",
+					false,
+					true,
+					true,
+					null,
+					customPropsMap
+				);
+				}
+			
+				{
+				Map customPropsMap = new HashMap();
+				
+				setItemTypeProperties(
+					"Asianpaintsb2bStyleVariantProduct",
+					false,
+					true,
+					true,
+					null,
+					customPropsMap
+				);
+				}
+			
+			single_setAttributeProperties_Asianpaintsb2bStyleVariantProduct_style();
+		
+			single_setAttributeProperties_Asianpaintsb2bStyleVariantProduct_swatchColors();
+		
+				{
+				Map customPropsMap = new HashMap();
+				
+				setItemTypeProperties(
+					"Asianpaintsb2bSizeVariantProduct",
+					false,
+					true,
+					true,
+					null,
+					customPropsMap
+				);
+				}
+			
+			single_setAttributeProperties_Asianpaintsb2bSizeVariantProduct_size();
 		
 				{
 				Map customPropsMap = new HashMap();
@@ -408,6 +540,72 @@ public class GeneratedTypeInitializer extends AbstractTypeInitializer
 							
 							setAttributeProperties(
 								"ApparelSizeVariantProduct", 
+								"size",
+								false, 
+								null,
+								null,
+								null,
+								true,
+								true,
+								"VariantAttributeDescriptor",
+								customPropsMap,
+								null
+							);
+						}
+					
+						public void single_setAttributeProperties_Asianpaintsb2bStyleVariantProduct_style() throws JaloBusinessException
+						{
+							
+							
+							
+							Map customPropsMap = new HashMap();
+							
+							setAttributeProperties(
+								"Asianpaintsb2bStyleVariantProduct", 
+								"style",
+								false, 
+								null,
+								null,
+								null,
+								true,
+								true,
+								"VariantAttributeDescriptor",
+								customPropsMap,
+								null
+							);
+						}
+					
+						public void single_setAttributeProperties_Asianpaintsb2bStyleVariantProduct_swatchColors() throws JaloBusinessException
+						{
+							
+							
+							
+							Map customPropsMap = new HashMap();
+							
+							setAttributeProperties(
+								"Asianpaintsb2bStyleVariantProduct", 
+								"swatchColors",
+								false, 
+								null,
+								null,
+								null,
+								true,
+								true,
+								null,
+								customPropsMap,
+								null
+							);
+						}
+					
+						public void single_setAttributeProperties_Asianpaintsb2bSizeVariantProduct_size() throws JaloBusinessException
+						{
+							
+							
+							
+							Map customPropsMap = new HashMap();
+							
+							setAttributeProperties(
+								"Asianpaintsb2bSizeVariantProduct", 
 								"size",
 								false, 
 								null,

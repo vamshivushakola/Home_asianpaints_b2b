@@ -12,16 +12,132 @@ $lang=en
 
 # Update allProducts with localisations
 #UPDATE Product;code[unique=true];$catalogVersion;name[lang=$lang];summary[lang=$lang];description[lang=$lang]
-UPDATE Product;code[unique=true];$catalogVersion;name[lang=$lang];summary[lang=$lang];description[lang=$lang];
-;0001;;Royale Aspira;Smooth & high performance luxury finishes;Royale Aspira comes with a 5 year warranty, the first of its kind in the interior emulsion category in India.
-;0002;;Apex Ultima;High Performance Exterior Emulsion;Apex Ultima is Indias most advanced exterior painting system that gives your home Ultimate Protection along with unmatched beauty.
-;0003;;Interior Roller;Felt Roller for direct enamel application. Made from simulated mohair.;Work gets done much faster than Brushing. Save on money because of direct roller application of enamels.
-;0004;;Exterior Roller;These are made from fabric and polyester foam to assure light weight and long lasting.; These are presented in various pile length with smooth surface ideal for epoxy coatings,Work gets done much faster than Brushing and the finish is smooth. Save on money because of durability and direct roller application.
-;0005;;Apcolite;Apcolite Advanced Emulsion provides a rich and matt finish with excellent stain cleanability and resistance to burnish.;Apcolite makes the paint resistance to wear and tear increasing the life of the paint..
-;0006;;Roller Paiting Aid;High Performance Smooth For Rolling;This Roller is made from fabric and polyester foam to assure light weight and long lasting.
-;0007;;Extend Roller;Extend Roller is used wher the place of Colouring is far away;Work gets done much faster than Brushing. Save on money because of direct roller application of enamels.
-;0008;;royalplay_galaxy;when applied on a Royale Wall, creates a subtle sparkly appearance on the wall;It modifies your existing wall with additional coats using Rollers without much effort or special skill required by the applicator.
-;0009;;Soft Brush;This type of brushes are extremely effective in oil base paints, varnishes and polyurethane.;These are flexible brushes that hold paint for making a line and they are specially designed to make more reliable and grip. These are available in black and white hair
-;0010;;Premium Emulsion;Asian Paints Apcolite Premium Emulsion has a rich and smooth matt finish that oozes sophistication.;Apcolite Premium Emulsion has a long lasting film that keeps your house as good as new for a long time.
-;0011;;exterior vanish;This Colour Coating  is a long lasting film that keeps your house as good as new for a long time;Exterior Vanishis designed to protect your walls against unwanted fungus that can cause considerable damage.
 
+#UPDATE Product;code[unique=true];$catalogVersion;name[lang=$lang];summary[lang=$lang];description[lang=$lang];
+UPDATE Product;code[unique=true];$catalogVersion;name[lang=$lang];summary[lang=$lang];description[lang=$lang];Asianpaintsb2bStyleVariantProduct.style[lang=$lang];Asianpaintsb2bSizeVariantProduct.size[lang=$lang]
+;0001;;Royale Aspira;Smooth & high performance luxury finishes;Royale Aspira comes with a 5 year warranty, the first of its kind in the interior emulsion category in India.;;M
+;B0001;;Royale Aspira;Smooth & high performance luxury finishes;;Blue
+;R0001;;Royale Aspira;Smooth & high performance luxury finishes;;Red
+;G0001;;Royale Aspira;Smooth & high performance luxury finishes;;Green
+
+;B0001_M;;Royale Aspira 5L(Blue);Smooth & high performance luxury finishes;;;M
+;B0001_L;;Royale Aspira 10L(Blue);Smooth & high performance luxury finishes;;;L
+;R0001_M;;Royale Aspira 5L(Red);Smooth & high performance luxury finishes;;;M
+;R0001_L;;Royale Aspira 10L(Red);Smooth & high performance luxury finishes;;;L
+;G0001_M;;Royale Aspira 5L(Green);Smooth & high performance luxury finishes;;;M
+;G0001_L;;Royale Aspira 10L(Green);Smooth & high performance luxury finishes;;;L
+
+;0002;;Apex Ultima;High Performance Exterior Emulsion;Apex Ultima is Indias most advanced exterior painting system that gives your home Ultimate Protection along with unmatched beauty.
+;B0002;;Apex Ultima;Smooth & high performance luxury finishes;;Blue
+;R0002;;Apex Ultima;Smooth & high performance luxury finishes;;Red
+;G0002;;Apex Ultima;Smooth & high performance luxury finishes;;Green
+
+;B0002_M;;Apex Ultima 5L(Blue);Smooth & high performance luxury finishes;;;M
+;B0002_L;;Apex Ultima 10L(Blue);Smooth & high performance luxury finishes;;;L
+;R0002_M;;Apex Ultima 5L(Red);Smooth & high performance luxury finishes;;;M
+;R0002_L;;Apex Ultima 10L(Red);Smooth & high performance luxury finishes;;;L
+;G0002_M;;Apex Ultima 5L(Green);Smooth & high performance luxury finishes;;;M
+;G0002_L;;Apex Ultima 10L(Green);Smooth & high performance luxury finishes;;;L
+
+;0003;;Interior Roller;Felt Roller for direct enamel application. Made from simulated mohair.;Work gets done much faster than Brushing. Save on money because of direct roller application of enamels.
+
+;B0003;;Interior Roller;Smooth & high performance luxury finishes;;Blue
+;R0003;;Interior Roller;Smooth & high performance luxury finishes;;Red
+;G0003;;Interior Roller;Smooth & high performance luxury finishes;;Green
+;B0003_M;;Interior Roller 5L(Blue);Smooth & high performance luxury finishes;;;M
+;B0003_L;;Interior Roller 10L(Blue);Smooth & high performance luxury finishes;;;L
+;R0003_M;;Interior Roller 5L(Red);Smooth & high performance luxury finishes;;;M
+;R0003_L;;Interior Roller 10L(Red);Smooth & high performance luxury finishes;;;L
+;G0003_M;;Interior Roller 5L(Green);Smooth & high performance luxury finishes;;;M
+;G0003_L;;Interior Roller 10L(Green);Smooth & high performance luxury finishes;;;L
+
+;0004;;Exterior Roller;These are made from fabric and polyester foam to assure light weight and long lasting.; These are presented in various pile length with smooth surface ideal for epoxy coatings,Work gets done much faster than Brushing and the finish is smooth. Save on money because of durability and direct roller application.
+;B0004;;Exterior Roller;Smooth & high performance luxury finishes;;Blue
+;R0004;;Exterior Roller;Smooth & high performance luxury finishes;;Red
+;G0004;;Exterior Roller;Smooth & high performance luxury finishes;;Green
+;B0004_M;;Exterior Roller 5L(Blue);Smooth & high performance luxury finishes;;;M
+;B0004_L;;Exterior Roller 10L(Blue);Smooth & high performance luxury finishes;;;L
+;R0004_M;;Exterior Roller 5L(Red);Smooth & high performance luxury finishes;;;M
+;R0004_L;;Exterior Roller 10L(Red);Smooth & high performance luxury finishes;;;L
+;G0004_M;;Exterior Roller 5L(Green);Smooth & high performance luxury finishes;;;M
+;G0004_L;;Exterior Roller 10L(Green);Smooth & high performance luxury finishes;;;L
+
+;0005;;Apcolite;Apcolite Advanced Emulsion provides a rich and matt finish with excellent stain cleanability and resistance to burnish.;Apcolite makes the paint resistance to wear and tear increasing the life of the paint..
+
+;B0005;;Apcolite;Smooth & high performance luxury finishes;;Blue
+;R0005;;Apcolite;Smooth & high performance luxury finishes;;Red
+;G0005;;Apcolite;Smooth & high performance luxury finishes;;Green
+;B0005_M;;Apcolite 5L(Blue);Smooth & high performance luxury finishes;;;M
+;B0005_L;;Apcolite 10L(Blue);Smooth & high performance luxury finishes;;;L
+;R0005_M;;Apcolite 5L(Red);Smooth & high performance luxury finishes;;;M
+;R0005_L;;Apcolite 10L(Red);Smooth & high performance luxury finishes;;;L
+;G0005_M;;Apcolite 5L(Green);Smooth & high performance luxury finishes;;;M
+;G0005_L;;Apcolite 10L(Green);Smooth & high performance luxury finishes;;;L
+
+;0006;;Roller Painting Aid;High Performance Smooth For Rolling;This Roller is made from fabric and polyester foam to assure light weight and long lasting.
+
+;B0006;;Roller Painting Aid;Smooth & high performance luxury finishes;;Blue
+;R0006;;Roller Painting Aid;Smooth & high performance luxury finishes;;Red
+;G0006;;Roller Painting Aid;Smooth & high performance luxury finishes;;Green
+;B0006_M;;Roller Painting Aid 5L(Blue);Smooth & high performance luxury finishes;;;M
+;B0006_L;;Roller Painting Aid 10L(Blue);Smooth & high performance luxury finishes;;;L
+;R0006_M;;Roller Painting Aid 5L(Red);Smooth & high performance luxury finishes;;;M
+;R0006_L;;Roller Painting Aid 10L(Red);Smooth & high performance luxury finishes;;;L
+;G0006_M;;Roller Painting Aid 5L(Green);Smooth & high performance luxury finishes;;;M
+;G0006_L;;Roller Painting Aid 10L(Green);Smooth & high performance luxury finishes;;;L
+
+;0007;;Extend Roller;Extend Roller is used wher the place of Colouring is far away;Work gets done much faster than Brushing. Save on money because of direct roller application of enamels.
+
+;B0007;;Extend Roller;Smooth & high performance luxury finishes;;Blue
+;R0007;;Extend Roller;Smooth & high performance luxury finishes;;Red
+;G0007;;Extend Roller;Smooth & high performance luxury finishes;;Green
+;B0007_M;;Extend Roller 5L(Blue);Smooth & high performance luxury finishes;;;M
+;B0007_L;;Extend Roller 10L(Blue);Smooth & high performance luxury finishes;;;L
+;R0007_M;;Extend Roller 5L(Red);Smooth & high performance luxury finishes;;;M
+;R0007_L;;Extend Roller 10L(Red);Smooth & high performance luxury finishes;;;L
+;G0007_M;;Extend Roller 5L(Green);Smooth & high performance luxury finishes;;;M
+;G0007_L;;Extend Roller 10L(Green);Smooth & high performance luxury finishes;;;L
+
+#;0008;;royalplay_galaxy;when applied on a Royale Wall, creates a subtle sparkly appearance on the wall;It modifies your existing wall with additional coats using Rollers without much effort or special skill required by the applicator.
+#;B0008;;royalplay_galaxy;Smooth & high performance luxury finishes;;Blue
+#;R0008;;royalplay_galaxy;Smooth & high performance luxury finishes;;Red
+#;G0008;;royalplay_galaxy;Smooth & high performance luxury finishes;;Green
+#;B0008_M;;royalplay_galaxy 5L(Blue);Smooth & high performance luxury finishes;;;M
+#;B0008_L;;royalplay_galaxy 10L(Blue);Smooth & high performance luxury finishes;;;L
+#;R0008_M;;royalplay_galaxy 5L(Red);Smooth & high performance luxury finishes;;;M
+#;R0008_L;;royalplay_galaxy 10L(Red);Smooth & high performance luxury finishes;;;L
+#;G0008_M;;royalplay_galaxy 5L(Green);Smooth & high performance luxury finishes;;;M
+#;G0008_L;;royalplay_galaxy 10L(Green);Smooth & high performance luxury finishes;;;L
+
+;0009;;Soft Brush;This type of brushes are extremely effective in oil base paints, varnishes and polyurethane.;These are flexible brushes that hold paint for making a line and they are specially designed to make more reliable and grip. These are available in black and white hair
+#;B0009;;Soft Brush;Smooth & high performance luxury finishes;;Blue
+#;R0009;;Soft Brush;Smooth & high performance luxury finishes;;Red
+#;G0009;;Soft Brush;Smooth & high performance luxury finishes;;Green
+#;B0009_M;;Soft Brush 5L(Blue);Smooth & high performance luxury finishes;;;M
+#;B0009_L;;Soft Brush 10L(Blue);Smooth & high performance luxury finishes;;;L
+#;R0009_M;;Soft Brush 5L(Red);Smooth & high performance luxury finishes;;;M
+#;R0009_L;;Soft Brush 10L(Red);Smooth & high performance luxury finishes;;;L
+#;G0009_M;;Soft Brush 5L(Green);Smooth & high performance luxury finishes;;;M
+#;G0009_L;;Soft Brush 10L(Green);Smooth & high performance luxury finishes;;;L
+
+;0010;;Premium Emulsion;Asian Paints Apcolite Premium Emulsion has a rich and smooth matt finish that oozes sophistication.;Apcolite Premium Emulsion has a long lasting film that keeps your house as good as new for a long time.
+#;B0010;;Premium Emulsion;Smooth & high performance luxury finishes;;Blue
+#;R0010;;Premium Emulsion;Smooth & high performance luxury finishes;;Red
+#;G0010;;Premium Emulsion;Smooth & high performance luxury finishes;;Green
+#;B0010_M;;Premium Emulsion 5L(Blue);Smooth & high performance luxury finishes;;;M
+#;B0010_L;;Premium Emulsion 10L(Blue);Smooth & high performance luxury finishes;;;L
+#;R0010_M;;Premium Emulsion 5L(Red);Smooth & high performance luxury finishes;;;M
+#;R0010_L;;Premium Emulsion 10L(Red);Smooth & high performance luxury finishes;;;L
+#;G0010_M;;Premium Emulsion 5L(Green);Smooth & high performance luxury finishes;;;M
+#;G0010_L;;Premium Emulsion 10L(Green);Smooth & high performance luxury finishes;;;L
+
+;0011;;exterior vanish;This Colour Coating  is a long lasting film that keeps your house as good as new for a long time;Exterior Vanishis designed to protect your walls against unwanted fungus that can cause considerable damage.
+#;B0011;;exterior vanish;Smooth & high performance luxury finishes;;Blue
+#;R0011;;exterior vanish;Smooth & high performance luxury finishes;;Red
+#;G0011;;exterior vanish;Smooth & high performance luxury finishes;;Green
+#;B0011_M;;exterior vanish 5L(Blue);Smooth & high performance luxury finishes;;;M
+#;B0011_L;;exterior vanish 10L(Blue);Smooth & high performance luxury finishes;;;L
+#;R0011_M;;exterior vanish 5L(Red);Smooth & high performance luxury finishes;;;M
+#;R0011_L;;exterior vanish 10L(Red);Smooth & high performance luxury finishes;;;L
+#;G0011_M;;exterior vanish 5L(Green);Smooth & high performance luxury finishes;;;M
+#;G0011_L;;exterior vanish 10L(Green);Smooth & high performance luxury finishes;;;L

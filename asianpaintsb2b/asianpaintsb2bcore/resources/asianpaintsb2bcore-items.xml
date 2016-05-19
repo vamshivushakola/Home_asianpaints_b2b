@@ -97,6 +97,55 @@
 			</itemtype>
 		</typegroup>
 		
+		
+		<!--Vamshi Added For Varians  -->
+		<typegroup name="Asianpaintsb2b">
+			<itemtype code="Asianpaintsb2bProduct" extends="Product"
+			          autocreate="true" generate="true"
+			          jaloclass="com.asianpaintsb2b.core.jalo.Asianpaintsb2bProduct">
+				<description>Base Asianpaintsb2b product extension that contains additional attributes.</description>
+			</itemtype>
+
+			<itemtype code="Asianpaintsb2bStyleVariantProduct" extends="VariantProduct"
+			          autocreate="true" generate="true"
+			          jaloclass="com.asianpaintsb2b.core.jalo.Asianpaintsb2bStyleVariantProduct">
+				<description>Asianpaintsb2b style variant type that contains additional attribute describing variant style.
+				</description>
+				<attributes>
+					<attribute qualifier="style" type="localized:java.lang.String"
+					           metatype="VariantAttributeDescriptor">
+						<description>Color/Pattern of the product.</description>
+						<modifiers/>
+						<persistence type="property"/>
+					</attribute>
+
+					<attribute qualifier="swatchColors" type="SwatchColorSet">
+						<description>A normalized color mapping to a standardized front-end navigable name.
+						</description>
+						<modifiers/>
+						<persistence type="property"/>
+					</attribute>
+				</attributes>
+
+			</itemtype>
+
+			<itemtype code="Asianpaintsb2bSizeVariantProduct" extends="Asianpaintsb2bStyleVariantProduct"
+			          autocreate="true" generate="true"
+			          jaloclass="com.asianpaintsb2b.core.jalo.Asianpaintsb2bSizeVariantProduct">
+				<description>Asianpaintsb2b size variant type that contains additional attribute describing variant size.
+				</description>
+				<attributes>
+					<attribute qualifier="size" type="localized:java.lang.String"
+					           metatype="VariantAttributeDescriptor">
+						<description>Size of the product.</description>
+						<modifiers/>
+						<persistence type="property"/>
+					</attribute>
+				</attributes>
+			</itemtype>
+		</typegroup>
+		<!--Vamshi Ended for variants  -->
+		
 		<typegroup name="Electronics">
 			<itemtype code="ElectronicsColorVariantProduct" extends="VariantProduct"
           autocreate="true" generate="true"

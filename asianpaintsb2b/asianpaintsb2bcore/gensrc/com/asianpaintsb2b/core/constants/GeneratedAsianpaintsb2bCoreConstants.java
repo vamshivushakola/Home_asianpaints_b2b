@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at May 18, 2016 9:33:51 AM                     ---
+ * --- Generated at May 19, 2016 3:58:04 PM                     ---
  * ----------------------------------------------------------------
  */
 package com.asianpaintsb2b.core.constants;
@@ -19,6 +19,9 @@ public class GeneratedAsianpaintsb2bCoreConstants
 		public static final String APPARELPRODUCT = "ApparelProduct".intern();
 		public static final String APPARELSIZEVARIANTPRODUCT = "ApparelSizeVariantProduct".intern();
 		public static final String APPARELSTYLEVARIANTPRODUCT = "ApparelStyleVariantProduct".intern();
+		public static final String ASIANPAINTSB2BPRODUCT = "Asianpaintsb2bProduct".intern();
+		public static final String ASIANPAINTSB2BSIZEVARIANTPRODUCT = "Asianpaintsb2bSizeVariantProduct".intern();
+		public static final String ASIANPAINTSB2BSTYLEVARIANTPRODUCT = "Asianpaintsb2bStyleVariantProduct".intern();
 		public static final String ELECTRONICSCOLORVARIANTPRODUCT = "ElectronicsColorVariantProduct".intern();
 		public static final String SWATCHCOLORENUM = "SwatchColorEnum".intern();
 	}

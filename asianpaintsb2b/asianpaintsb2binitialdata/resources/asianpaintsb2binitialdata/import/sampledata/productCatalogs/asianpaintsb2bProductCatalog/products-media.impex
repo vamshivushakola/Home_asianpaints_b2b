@@ -24,7 +24,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;1200Wx1200H;/1200Wx1200H/royale-aspira.jpg;$siteResource/images/1200Wx1200H/royale-aspira.jpg;;;images
 
 ;1200Wx1200H;/1200Wx1200H/RollerPaitingAid.jpg;$siteResource/images/1200Wx1200H/RollerPaitingAid.jpg;;;images
+
 ;1200Wx1200H;/1200Wx1200H/Apcolite.jpg;$siteResource/images/1200Wx1200H/Apcolite.jpg;;;images
+
+;1200Wx1200H;/1200Wx1200H/Apcolite_blue.jpg;$siteResource/images/1200Wx1200H/Apcolite_blue.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/Apcolite_green.jpg;$siteResource/images/1200Wx1200H/Apcolite_green.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/Apcolite_red.jpg;$siteResource/images/1200Wx1200H/Apcolite_red.jpg;;;images
+
+
 ;1200Wx1200H;/1200Wx1200H/SoftBrush.jpg;$siteResource/images/1200Wx1200H/SoftBrush.jpg;;;images
 ;1200Wx1200H;/1200Wx1200H/royalplay_galaxy.jpg;$siteResource/images/1200Wx1200H/royalplay_galaxy.jpg;;;images
 ;1200Wx1200H;/1200Wx1200H/ExtendRoller.jpg;$siteResource/images/1200Wx1200H/ExtendRoller.jpg;;;images
@@ -42,7 +49,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;515Wx515H;/515Wx515H/royale-aspira.jpg;$siteResource/images/515Wx515H/royale-aspira.jpg;;;images
 
 ;515Wx515H;/515Wx515H/RollerPaitingAid.jpg;$siteResource/images/515Wx515H/RollerPaitingAid.jpg;;;images
+
 ;515Wx515H;/515Wx515H/Apcolite.jpg;$siteResource/images/515Wx515H/Apcolite.jpg;;;images
+
+;515Wx515H;/515Wx515H/Apcolite_blue.jpg;$siteResource/images/515Wx515H/Apcolite_blue.jpg;;;images
+;515Wx515H;/515Wx515H/Apcolite_green.jpg;$siteResource/images/515Wx515H/Apcolite_green.jpg;;;images
+;515Wx515H;/515Wx515H/Apcolite_red.jpg;$siteResource/images/515Wx515H/Apcolite_red.jpg;;;images
+
+
 ;515Wx515H;/515Wx515H/SoftBrush.jpg;$siteResource/images/515Wx515H/SoftBrush.jpg;;;images
 ;515Wx515H;/515Wx515H/royalplay_galaxy.jpg;$siteResource/images/515Wx515H/royalplay_galaxy.jpg;;;images
 ;515Wx515H;/515Wx515H/ExtendRoller.jpg;$siteResource/images/515Wx515H/ExtendRoller.jpg;;;images
@@ -60,7 +74,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;300Wx300H;/300Wx300H/royale-aspira.jpg;$siteResource/images/300Wx300H/royale-aspira.jpg;;;images
 
 ;300Wx300H;/300Wx300H/RollerPaitingAid.jpg;$siteResource/images/300Wx300H/RollerPaitingAid.jpg;;;images
+
 ;300Wx300H;/300Wx300H/Apcolite.jpg;$siteResource/images/300Wx300H/Apcolite.jpg;;;images
+
+;300Wx300H;/300Wx300H/Apcolite_blue.jpg;$siteResource/images/300Wx300H/Apcolite_blue.jpg;;;images
+;300Wx300H;/300Wx300H/Apcolite_green.jpg;$siteResource/images/300Wx300H/Apcolite_green.jpg;;;images
+;300Wx300H;/300Wx300H/Apcolite_red.jpg;$siteResource/images/300Wx300H/Apcolite_red.jpg;;;images
+
+
 ;300Wx300H;/300Wx300H/SoftBrush.jpg;$siteResource/images/300Wx300H/SoftBrush.jpg;;;images
 ;300Wx300H;/300Wx300H/royalplay_galaxy.jpg;$siteResource/images/300Wx300H/royalplay_galaxy.jpg;;;images
 ;300Wx300H;/300Wx300H/ExtendRoller.jpg;$siteResource/images/300Wx300H/ExtendRoller.jpg;;;images
@@ -78,7 +99,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;96Wx96H;/96Wx96H/royale-aspira.jpg;$siteResource/images/96Wx96H/royale-aspira.jpg;;;images
 
 ;96Wx96H;/96Wx96H/RollerPaitingAid.jpg;$siteResource/images/96Wx96H/RollerPaitingAid.jpg;;;images
+
 ;96Wx96H;/96Wx96H/Apcolite.jpg;$siteResource/images/96Wx96H/Apcolite.jpg;;;images
+
+;96Wx96H;/96Wx96H/Apcolite_blue.jpg;$siteResource/images/96Wx96H/Apcolite_blue.jpg;;;images
+;96Wx96H;/96Wx96H/Apcolite_green.jpg;$siteResource/images/96Wx96H/Apcolite_green.jpg;;;images
+;96Wx96H;/96Wx96H/Apcolite_red.jpg;$siteResource/images/96Wx96H/Apcolite_red.jpg;;;images
+
+
 ;96Wx96H;/96Wx96H/SoftBrush.jpg;$siteResource/images/96Wx96H/SoftBrush.jpg;;;images
 ;96Wx96H;/96Wx96H/royalplay_galaxy.jpg;$siteResource/images/96Wx96H/royalplay_galaxy.jpg;;;images
 ;96Wx96H;/96Wx96H/ExtendRoller.jpg;$siteResource/images/96Wx96H/ExtendRoller.jpg;;;images
@@ -96,7 +124,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;65Wx65H;/65Wx65H/royale-aspira.jpg;$siteResource/images/65Wx65H/royale-aspira.jpg;;;images
 
 ;65Wx65H;/65Wx65H/RollerPaitingAid.jpg;$siteResource/images/65Wx65H/RollerPaitingAid.jpg;;;images
+
 ;65Wx65H;/65Wx65H/Apcolite.jpg;$siteResource/images/65Wx65H/Apcolite.jpg;;;images
+
+;65Wx65H;/65Wx65H/Apcolite_blue.jpg;$siteResource/images/65Wx65H/Apcolite_blue.jpg;;;images
+;65Wx65H;/65Wx65H/Apcolite_green.jpg;$siteResource/images/65Wx65H/Apcolite_green.jpg;;;images
+;65Wx65H;/65Wx65H/Apcolite_red.jpg;$siteResource/images/65Wx65H/Apcolite_red.jpg;;;images
+
+
 ;65Wx65H;/65Wx65H/SoftBrush.jpg;$siteResource/images/65Wx65H/SoftBrush.jpg;;;images
 ;65Wx65H;/65Wx65H/royalplay_galaxy.jpg;$siteResource/images/65Wx65H/royalplay_galaxy.jpg;;;images
 ;65Wx65H;/65Wx65H/ExtendRoller.jpg;$siteResource/images/65Wx65H/ExtendRoller.jpg;;;images
@@ -114,7 +149,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;30Wx30H;/30Wx30H/royale-aspira.jpg;$siteResource/images/30Wx30H/royale-aspira.jpg;;;images
 
 ;30Wx30H;/30Wx30H/RollerPaitingAid.jpg;$siteResource/images/30Wx30H/RollerPaitingAid.jpg;;;images
+
 ;30Wx30H;/30Wx30H/Apcolite.jpg;$siteResource/images/30Wx30H/Apcolite.jpg;;;images
+
+;30Wx30H;/30Wx30H/Apcolite_blue.jpg;$siteResource/images/30Wx30H/Apcolite_blue.jpg;;;images
+;30Wx30H;/30Wx30H/Apcolite_green.jpg;$siteResource/images/30Wx30H/Apcolite_green.jpg;;;images
+;30Wx30H;/30Wx30H/Apcolite_red.jpg;$siteResource/images/30Wx30H/Apcolite_red.jpg;;;images
+
+
 ;30Wx30H;/30Wx30H/SoftBrush.jpg;$siteResource/images/30Wx30H/SoftBrush.jpg;;;images
 ;30Wx30H;/30Wx30H/royalplay_galaxy.jpg;$siteResource/images/30Wx30H/royalplay_galaxy.jpg;;;images
 ;30Wx30H;/30Wx30H/ExtendRoller.jpg;$siteResource/images/30Wx30H/ExtendRoller.jpg;;;images
@@ -146,6 +188,11 @@ INSERT_UPDATE MediaContainer;qualifier[unique=true];$medias;$catalogVersion
 ;royale-aspira_green;/1200Wx1200H/royale-aspira_green.jpg,/515Wx515H/royale-aspira_green.jpg,/300Wx300H/royale-aspira_green.jpg,/96Wx96H/royale-aspira_green.jpg,/65Wx65H/royale-aspira_green.jpg,/30Wx30H/royale-aspira_green.jpg;
 ;royale-aspira_red;/1200Wx1200H/royale-aspira_red.jpg,/515Wx515H/royale-aspira_red.jpg,/300Wx300H/royale-aspira_red.jpg,/96Wx96H/royale-aspira_red.jpg,/65Wx65H/royale-aspira_red.jpg,/30Wx30H/royale-aspira_red.jpg;
 
+;Apcolite_blue;/1200Wx1200H/Apcolite_blue.jpg,/515Wx515H/Apcolite_blue.jpg,/300Wx300H/Apcolite_blue.jpg,/96Wx96H/Apcolite_blue.jpg,/65Wx65H/Apcolite_blue.jpg,/30Wx30H/Apcolite_blue.jpg;
+;Apcolite_green;/1200Wx1200H/Apcolite_green.jpg,/515Wx515H/Apcolite_green.jpg,/300Wx300H/Apcolite_green.jpg,/96Wx96H/Apcolite_green.jpg,/65Wx65H/Apcolite_green.jpg,/30Wx30H/Apcolite_green.jpg;
+;Apcolite_red;/1200Wx1200H/Apcolite_red.jpg,/515Wx515H/Apcolite_red.jpg,/300Wx300H/Apcolite_red.jpg,/96Wx96H/Apcolite_red.jpg,/65Wx65H/Apcolite_red.jpg,/30Wx30H/Apcolite_red.jpg;
+
+
 
 # Update Products with Media and Media Containers
 UPDATE Product;code[unique=true];$picture;$thumbnail;$detail;$others;$normal;$thumbnails;$galleryImages;$catalogVersion
@@ -161,4 +208,14 @@ UPDATE Product;code[unique=true];$picture;$thumbnail;$detail;$others;$normal;$th
 ;0007;/300Wx300H/ExtendRoller.jpg;/96Wx96H/ExtendRoller.jpg;;/1200Wx1200H/ExtendRoller.jpg,/515Wx515H/ExtendRoller.jpg,/300Wx300H/ExtendRoller.jpg,/96Wx96H/ExtendRoller.jpg,/65Wx65H/ExtendRoller.jpg,/30Wx30H/ExtendRoller.jpg;/300Wx300H/ExtendRoller.jpg;/96Wx96H/ExtendRoller.jpg;ExtendRoller;
 ;0010;/300Wx300H/premium emulsion.jpg;/96Wx96H/premium emulsion.jpg;;/1200Wx1200H/premium emulsion.jpg,/515Wx515H/premium emulsion.jpg,/300Wx300H/premium emulsion.jpg,/96Wx96H/premium emulsion.jpg,/65Wx65H/premium emulsion.jpg,/30Wx30H/premium emulsion.jpg;/300Wx300H/premium emulsion.jpg;/96Wx96H/premium emulsion.jpg;premium emulsion;
 ;0011;/300Wx300H/exterior vanish.jpg;/96Wx96H/exterior vanish.jpg;;/1200Wx1200H/exterior vanish.jpg,/515Wx515H/exterior vanish.jpg,/300Wx300H/exterior vanish.jpg,/96Wx96H/exterior vanish.jpg,/65Wx65H/exterior vanish.jpg,/30Wx30H/ExtendRoller.jpg;/300Wx300H/exterior vanish.jpg;/96Wx96H/exterior vanish.jpg;exterior vanish;
+
+UPDATE Asianpaintsb2bStyleVariantProduct;code[unique=true];$picture;$thumbnail;$others;$normal;$thumbnails;$catalogVersion;$galleryImages
+;B0001;/300Wx300H/royale-aspira_blue.jpg;/96Wx96H/royale-aspira_blue.jpg;/515Wx515H/royale-aspira_blue.jpg,/300Wx300H/royale-aspira_blue.jpg,/96Wx96H/royale-aspira_blue.jpg,/65Wx65H/royale-aspira_blue.jpg,/30Wx30H/royale-aspira_blue.jpg;/300Wx300H/royale-aspira_blue.jpg;/96Wx96H/royale-aspira_blue.jpg;;
+;R0001;/300Wx300H/royale-aspira_red.jpg;/96Wx96H/royale-aspira_red.jpg;/515Wx515H/royale-aspira_red.jpg,/300Wx300H/royale-aspira_red.jpg,/96Wx96H/royale-aspira_red.jpg,/65Wx65H/royale-aspira_red.jpg,/30Wx30H/royale-aspira_red.jpg;/300Wx300H/royale-aspira_red.jpg;/96Wx96H/royale-aspira_red.jpg;;
+;G0001;/300Wx300H/royale-aspira_green.jpg;/96Wx96H/royale-aspira_green.jpg;/515Wx515H/royale-aspira_green.jpg,/300Wx300H/royale-aspira_green.jpg,/96Wx96H/royale-aspira_green.jpg,/65Wx65H/royale-aspira_green.jpg,/30Wx30H/royale-aspira_green.jpg;/300Wx300H/royale-aspira_green.jpg;/96Wx96H/royale-aspira_green.jpg;;
+
+;B0001;/300Wx300H/Apcolite_blue.jpg;/96Wx96H/Apcolite_blue.jpg;/515Wx515H/Apcolite_blue.jpg,/300Wx300H/Apcolite_blue.jpg,/96Wx96H/Apcolite_blue.jpg,/65Wx65H/Apcolite_blue.jpg,/30Wx30H/Apcolite_blue.jpg;/300Wx300H/Apcolite_blue.jpg;/96Wx96H/Apcolite_blue.jpg;;
+;R0001;/300Wx300H/Apcolite_red.jpg;/96Wx96H/Apcolite_red.jpg;/515Wx515H/Apcolite_red.jpg,/300Wx300H/Apcolite_red.jpg,/96Wx96H/Apcolite_red.jpg,/65Wx65H/Apcolite_red.jpg,/30Wx30H/Apcolite_red.jpg;/300Wx300H/Apcolite_red.jpg;/96Wx96H/royale-aspira_red.jpg;;
+;G0001;/300Wx300H/Apcolite_green.jpg;/96Wx96H/Apcolite_green.jpg;/515Wx515H/Apcolite_green.jpg,/300Wx300H/Apcolite_green.jpg,/96Wx96H/Apcolite_green.jpg,/65Wx65H/Apcolite_green.jpg,/30Wx30H/Apcolite_green.jpg;/300Wx300H/Apcolite_green.jpg;/96Wx96H/Apcolite_green.jpg;;
+
 

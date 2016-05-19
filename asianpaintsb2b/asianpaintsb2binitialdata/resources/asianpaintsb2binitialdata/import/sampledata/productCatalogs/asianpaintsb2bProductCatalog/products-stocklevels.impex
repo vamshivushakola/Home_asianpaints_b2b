@@ -19,10 +19,34 @@ INSERT_UPDATE Warehouse;code[unique=true];vendor(code);default[default=true]
 
 INSERT_UPDATE StockLevel;available;warehouse(code)[unique=true];inStockStatus(code);maxPreOrder;maxStockLevelHistoryCount;overSelling;preOrder;productCode[unique=true];reserved
 ;100;warehouse_e;forceInStock;0;0;0;0;0001;0
+
+;100;warehouse_e;forceInStock;0;0;0;0;B0001;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0001;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0001;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0001_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0001_L;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0001_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0001_L;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0001_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0001_L;0
+
+
 ;100;warehouse_e;forceInStock;0;0;0;0;0002;0
 ;100;warehouse_e;forceInStock;1;0;0;0;0003;0
 ;100;warehouse_e;forceInStock;1;0;0;0;0004;0
+
 ;100;warehouse_e;forceInStock;1;0;0;0;0005;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0005;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0005;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0005;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0005_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0005_L;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0005_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0005_L;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0005_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0005_L;0
+
+
 ;100;warehouse_e;forceInStock;1;0;0;0;0006;0
 ;100;warehouse_e;forceInStock;1;0;0;0;0007;0
 ;100;warehouse_e;forceInStock;1;0;0;0;0008;0
@@ -31,11 +55,23 @@ INSERT_UPDATE StockLevel;available;warehouse(code)[unique=true];inStockStatus(co
 ;100;warehouse_e;forceInStock;1;0;0;0;0011;0
 
 
-
 UPDATE Product;code[unique=true];$catalogVersion;stockLevels(productCode,warehouse(code));vendors(code)
+
 ;0001;;0001:warehouse_e;asianpaintsb2b
+
+;B0001;;0001:warehouse_e;asianpaintsb2b
+;R0001;;0001:warehouse_e;asianpaintsb2b
+;G0001;;0001:warehouse_e;asianpaintsb2b
+;B0001_M;;0001:warehouse_e;asianpaintsb2b
+;B0001_L;;0001:warehouse_e;asianpaintsb2b
+;R0001_M;;0001:warehouse_e;asianpaintsb2b
+;R0001_L;;0001:warehouse_e;asianpaintsb2b
+;G0001_M;;0001:warehouse_e;asianpaintsb2b
+;G0001_L;;0001:warehouse_e;asianpaintsb2b
+
 ;0002;;0002:warehouse_e;asianpaintsb2b
 ;0003;;0003:warehouse_e;asianpaintsb2b
+
 ;0004;;0004:warehouse_e;asianpaintsb2b
 ;0005;;0005:warehouse_e;asianpaintsb2b
 ;0006;;0006:warehouse_e;asianpaintsb2b
