@@ -38,6 +38,12 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;1200Wx1200H;/1200Wx1200H/premium emulsion.jpg;$siteResource/images/1200Wx1200H/premium emulsion.jpg;;;images
 ;1200Wx1200H;/1200Wx1200H/exterior vanish.jpg;$siteResource/images/1200Wx1200H/exterior vanish.jpg;;;images
 
+;1200Wx1200H;/1200Wx1200H/concrete-machine.jpg;$siteResource/images/1200Wx1200H/concrete-machine.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/concrete-spraying-machine.jpg;$siteResource/images/1200Wx1200H/concrete-spraying-machine.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/flooring-machine.jpg;$siteResource/images/1200Wx1200H/flooring-machine.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/Thicker-flooring-machine.jpg;$siteResource/images/1200Wx1200H/Thicker-flooring-machine.jpg;;;images
+
+
 ;1200Wx1200H;/1200Wx1200H/royale-aspira_blue.jpg;$siteResource/images/1200Wx1200H/royale-aspira_blue.jpg;;;images
 ;1200Wx1200H;/1200Wx1200H/royale-aspira_green.jpg;$siteResource/images/1200Wx1200H/royale-aspira_green.jpg;;;images
 ;1200Wx1200H;/1200Wx1200H/royale-aspira_red.jpg;$siteResource/images/1200Wx1200H/royale-aspira_red.jpg;;;images
@@ -62,6 +68,12 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;515Wx515H;/515Wx515H/ExtendRoller.jpg;$siteResource/images/515Wx515H/ExtendRoller.jpg;;;images
 ;515Wx515H;/515Wx515H/premium emulsion.jpg;$siteResource/images/515Wx515H/premium emulsion.jpg;;;images
 ;515Wx515H;/515Wx515H/exterior vanish.jpg;$siteResource/images/515Wx515H/exterior vanish.jpg;;;images
+
+;515Wx515H;/515Wx515H/concrete-machine.jpg;$siteResource/images/515Wx515H/concrete-machine.jpg;;;images
+;515Wx515H;/515Wx515H/concrete-spraying-machine.jpg;$siteResource/images/515Wx515H/concrete-spraying-machine.jpg;;;images
+;515Wx515H;/515Wx515H/flooring-machine.jpg;$siteResource/images/515Wx515H/flooring-machine.jpg;;;images
+;515Wx515H;/515Wx515H/Thicker-flooring-machine.jpg;$siteResource/images/515Wx515H/Thicker-flooring-machine.jpg;;;images
+
 
 ;515Wx515H;/515Wx515H/royale-aspira_blue.jpg;$siteResource/images/515Wx515H/royale-aspira_blue.jpg;;;images
 ;515Wx515H;/515Wx515H/royale-aspira_green.jpg;$siteResource/images/515Wx515H/royale-aspira_green.jpg;;;images
@@ -88,6 +100,12 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;300Wx300H;/300Wx300H/premium emulsion.jpg;$siteResource/images/300Wx300H/premium emulsion.jpg;;;images
 ;300Wx300H;/300Wx300H/exterior vanish.jpg;$siteResource/images/300Wx300H/exterior vanish.jpg;;;images
 
+;300Wx300H;/300Wx300H/concrete-machine.jpg;$siteResource/images/300Wx300H/concrete-machine.jpg;;;images
+;300Wx300H;/300Wx300H/concrete-spraying-machine.jpg;$siteResource/images/300Wx300H/concrete-spraying-machine.jpg;;;images
+;300Wx300H;/300Wx300H/flooring-machine.jpg;$siteResource/images/300Wx300H/flooring-machine.jpg;;;images
+;300Wx300H;/300Wx300H/Thicker-flooring-machine.jpg;$siteResource/images/300Wx300H/Thicker-flooring-machine.jpg;;;images
+
+
 ;300Wx300H;/300Wx300H/royale-aspira_blue.jpg;$siteResource/images/300Wx300H/royale-aspira_blue.jpg;;;images
 ;300Wx300H;/300Wx300H/royale-aspira_green.jpg;$siteResource/images/300Wx300H/royale-aspira_green.jpg;;;images
 ;300Wx300H;/300Wx300H/royale-aspira_red.jpg;$siteResource/images/300Wx300H/royale-aspira_red.jpg;;;images
@@ -112,6 +130,12 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;96Wx96H;/96Wx96H/ExtendRoller.jpg;$siteResource/images/96Wx96H/ExtendRoller.jpg;;;images
 ;96Wx96H;/96Wx96H/premium emulsion.jpg;$siteResource/images/96Wx96H/premium emulsion.jpg;;;images
 ;96Wx96H;/96Wx96H/exterior vanish.jpg;$siteResource/images/96Wx96H/exterior vanish.jpg;;;images
+
+;96Wx96H;/96Wx96H/concrete-machine.jpg;$siteResource/images/96Wx96H/concrete-machine.jpg;;;images
+;96Wx96H;/96Wx96H/concrete-spraying-machine.jpg;$siteResource/images/96Wx96H/concrete-spraying-machine.jpg;;;images
+;96Wx96H;/96Wx96H/flooring-machine.jpg;$siteResource/images/96Wx96H/flooring-machine.jpg;;;images
+;96Wx96H;/96Wx96H/Thicker-flooring-machine.jpg;$siteResource/images/96Wx96H/Thicker-flooring-machine.jpg;;;images
+
 
 ;96Wx96H;/96Wx96H/royale-aspira_blue.jpg;$siteResource/images/96Wx96H/royale-aspira_blue.jpg;;;images
 ;96Wx96H;/96Wx96H/royale-aspira_green.jpg;$siteResource/images/96Wx96H/royale-aspira_green.jpg;;;images
@@ -138,6 +162,12 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;65Wx65H;/65Wx65H/premium emulsion.jpg;$siteResource/images/65Wx65H/premium emulsion.jpg;;;images
 ;65Wx65H;/65Wx65H/exterior vanish.jpg;$siteResource/images/65Wx65H/exterior vanish.jpg;;;images
 
+;65Wx65H;/65Wx65H/concrete-machine.jpg;$siteResource/images/65Wx65H/concrete-machine.jpg;;;images
+;65Wx65H;/65Wx65H/concrete-spraying-machine.jpg;$siteResource/images/65Wx65H/concrete-spraying-machine.jpg;;;images
+;65Wx65H;/65Wx65H/flooring-machine.jpg;$siteResource/images/65Wx65H/flooring-machine.jpg;;;images
+;65Wx65H;/65Wx65H/Thicker-flooring-machine.jpg;$siteResource/images/65Wx65H/Thicker-flooring-machine.jpg;;;images
+
+
 ;65Wx65H;/65Wx65H/royale-aspira_blue.jpg;$siteResource/images/65Wx65H/royale-aspira_blue.jpg;;;images
 ;65Wx65H;/65Wx65H/royale-aspira_green.jpg;$siteResource/images/65Wx65H/royale-aspira_green.jpg;;;images
 ;65Wx65H;/65Wx65H/royale-aspira_red.jpg;$siteResource/images/65Wx65H/royale-aspira_red.jpg;;;images
@@ -163,6 +193,12 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;30Wx30H;/30Wx30H/premium emulsion.jpg;$siteResource/images/30Wx30H/premium emulsion.jpg;;;images
 ;30Wx30H;/30Wx30H/exterior vanish.jpg;$siteResource/images/30Wx30H/exterior vanish.jpg;;;images
 
+;30Wx30H;/30Wx30H/concrete-machine.jpg;$siteResource/images/30Wx30H/concrete-machine.jpg;;;images
+;30Wx30H;/30Wx30H/concrete-spraying-machine.jpg;$siteResource/images/30Wx30H/concrete-spraying-machine.jpg;;;images
+;30Wx30H;/30Wx30H/flooring-machine.jpg;$siteResource/images/30Wx30H/flooring-machine.jpg;;;images
+;30Wx30H;/30Wx30H/Thicker-flooring-machine.jpg;$siteResource/images/30Wx30H/Thicker-flooring-machine.jpg;;;images
+
+
 ;30Wx30H;/30Wx30H/royale-aspira_blue.jpg;$siteResource/images/30Wx30H/royale-aspira_blue.jpg;;;images
 ;30Wx30H;/30Wx30H/royale-aspira_green.jpg;$siteResource/images/30Wx30H/royale-aspira_green.jpg;;;images
 ;30Wx30H;/30Wx30H/royale-aspira_red.jpg;$siteResource/images/30Wx30H/royale-aspira_red.jpg;;;images
@@ -183,6 +219,12 @@ INSERT_UPDATE MediaContainer;qualifier[unique=true];$medias;$catalogVersion
 ;ExtendRoller;/1200Wx1200H/ExtendRoller.jpg,/515Wx515H/ExtendRoller.jpg,/300Wx300H/ExtendRoller.jpg,/96Wx96H/ExtendRoller.jpg,/65Wx65H/ExtendRoller.jpg,/30Wx30H/ExtendRoller.jpg;
 ;premium emulsion;/1200Wx1200H/premium emulsion.jpg,/515Wx515H/premium emulsion.jpg,/300Wx300H/premium emulsion.jpg,/96Wx96H/premium emulsion.jpg,/65Wx65H/premium emulsion.jpg,/30Wx30H/premium emulsion.jpg;
 ;exterior vanish;/1200Wx1200H/exterior vanish.jpg,/515Wx515H/exterior vanish.jpg,/300Wx300H/exterior vanish.jpg,/96Wx96H/exterior vanish.jpg,/65Wx65H/exterior vanish.jpg,/30Wx30H/exterior vanish.jpg;
+
+;concrete-machine.jpg;/1200Wx1200H/concrete-machine.jpg.jpg,/515Wx515H/concrete-machine.jpg.jpg,/300Wx300H/concrete-machine.jpg.jpg,/96Wx96H/concrete-machine.jpg.jpg,/65Wx65H/concrete-machine.jpg.jpg,/30Wx30H/concrete-machine.jpg.jpg;
+;concrete-spraying-machine;/1200Wx1200H/concrete-spraying-machine.jpg,/515Wx515H/concrete-spraying-machine.jpg,/300Wx300H/concrete-spraying-machine.jpg,/96Wx96H/concrete-spraying-machine.jpg,/65Wx65H/concrete-spraying-machine.jpg,/30Wx30H/concrete-spraying-machine.jpg;
+;flooring-machine;/1200Wx1200H/flooring-machine.jpg,/515Wx515H/flooring-machine.jpg,/300Wx300H/flooring-machine.jpg,/96Wx96H/flooring-machine.jpg,/65Wx65H/flooring-machine.jpg,/30Wx30H/flooring-machine.jpg;
+;Thicker-flooring-machine;/1200Wx1200H/Thicker-flooring-machine.jpg,/515Wx515H/Thicker-flooring-machine.jpg,/300Wx300H/Thicker-flooring-machine.jpg,/96Wx96H/Thicker-flooring-machine.jpg,/65Wx65H/Thicker-flooring-machine.jpg,/30Wx30H/Thicker-flooring-machine.jpg;
+
 
 ;royale-aspira_blue;/1200Wx1200H/royale-aspira_blue.jpg,/515Wx515H/royale-aspira_blue.jpg,/300Wx300H/royale-aspira_blue.jpg,/96Wx96H/royale-aspira_blue.jpg,/65Wx65H/royale-aspira_blue.jpg,/30Wx30H/royale-aspira_blue.jpg;
 ;royale-aspira_green;/1200Wx1200H/royale-aspira_green.jpg,/515Wx515H/royale-aspira_green.jpg,/300Wx300H/royale-aspira_green.jpg,/96Wx96H/royale-aspira_green.jpg,/65Wx65H/royale-aspira_green.jpg,/30Wx30H/royale-aspira_green.jpg;
@@ -208,6 +250,11 @@ UPDATE Product;code[unique=true];$picture;$thumbnail;$detail;$others;$normal;$th
 ;0007;/300Wx300H/ExtendRoller.jpg;/96Wx96H/ExtendRoller.jpg;;/1200Wx1200H/ExtendRoller.jpg,/515Wx515H/ExtendRoller.jpg,/300Wx300H/ExtendRoller.jpg,/96Wx96H/ExtendRoller.jpg,/65Wx65H/ExtendRoller.jpg,/30Wx30H/ExtendRoller.jpg;/300Wx300H/ExtendRoller.jpg;/96Wx96H/ExtendRoller.jpg;ExtendRoller;
 ;0010;/300Wx300H/premium emulsion.jpg;/96Wx96H/premium emulsion.jpg;;/1200Wx1200H/premium emulsion.jpg,/515Wx515H/premium emulsion.jpg,/300Wx300H/premium emulsion.jpg,/96Wx96H/premium emulsion.jpg,/65Wx65H/premium emulsion.jpg,/30Wx30H/premium emulsion.jpg;/300Wx300H/premium emulsion.jpg;/96Wx96H/premium emulsion.jpg;premium emulsion;
 ;0011;/300Wx300H/exterior vanish.jpg;/96Wx96H/exterior vanish.jpg;;/1200Wx1200H/exterior vanish.jpg,/515Wx515H/exterior vanish.jpg,/300Wx300H/exterior vanish.jpg,/96Wx96H/exterior vanish.jpg,/65Wx65H/exterior vanish.jpg,/30Wx30H/ExtendRoller.jpg;/300Wx300H/exterior vanish.jpg;/96Wx96H/exterior vanish.jpg;exterior vanish;
+
+;0012;/300Wx300H/concrete-machine.jpg;/96Wx96H/concrete-machine.jpg;;/1200Wx1200H/concrete-machine.jpg,/515Wx515H/concrete-machine.jpg,/300Wx300H/concrete-machine.jpg,/96Wx96H/concrete-machine.jpg,/65Wx65H/concrete-machine.jpg,/30Wx30H/ExtendRoller.jpg;/300Wx300H/concrete-machine.jpg;/96Wx96H/concrete-machine.jpg;concrete-machine;
+;0013;/300Wx300H/concrete-spraying-machine.jpg;/96Wx96H/concrete-spraying-machine.jpg;;/1200Wx1200H/concrete-spraying-machine.jpg,/515Wx515H/concrete-spraying-machine.jpg,/300Wx300H/concrete-spraying-machine.jpg,/96Wx96H/concrete-spraying-machine.jpg,/65Wx65H/concrete-spraying-machine.jpg,/30Wx30H/ExtendRoller.jpg;/300Wx300H/concrete-spraying-machine.jpg;/96Wx96H/concrete-spraying-machine.jpg;concrete-spraying-machine;
+;0014;/300Wx300H/flooring-machine.jpg;/96Wx96H/flooring-machine.jpg;;/1200Wx1200H/flooring-machine.jpg,/515Wx515H/flooring-machine.jpg,/300Wx300H/flooring-machine.jpg,/96Wx96H/flooring-machine.jpg,/65Wx65H/flooring-machine.jpg,/30Wx30H/ExtendRoller.jpg;/300Wx300H/flooring-machine.jpg;/96Wx96H/flooring-machine.jpg;flooring-machine;
+;0015;/300Wx300H/Thicker-flooring-machine.jpg;/96Wx96H/Thicker-flooring-machine.jpg;;/1200Wx1200H/Thicker-flooring-machine.jpg,/515Wx515H/Thicker-flooring-machine.jpg,/300Wx300H/Thicker-flooring-machine.jpg,/96Wx96H/Thicker-flooring-machine.jpg,/65Wx65H/Thicker-flooring-machine.jpg,/30Wx30H/ExtendRoller.jpg;/300Wx300H/Thicker-flooring-machine.jpg;/96Wx96H/Thicker-flooring-machine.jpg;Thicker-flooring-machine;
 
 UPDATE Asianpaintsb2bStyleVariantProduct;code[unique=true];$picture;$thumbnail;$others;$normal;$thumbnails;$catalogVersion;$galleryImages
 ;B0001;/300Wx300H/royale-aspira_blue.jpg;/96Wx96H/royale-aspira_blue.jpg;/515Wx515H/royale-aspira_blue.jpg,/300Wx300H/royale-aspira_blue.jpg,/96Wx96H/royale-aspira_blue.jpg,/65Wx65H/royale-aspira_blue.jpg,/30Wx30H/royale-aspira_blue.jpg;/300Wx300H/royale-aspira_blue.jpg;/96Wx96H/royale-aspira_blue.jpg;;

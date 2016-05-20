@@ -59,6 +59,8 @@
 		<property name="variantAttributeMapping">
 			<map>
 				<entry key="ApparelStyleVariantProduct.style" value="styleSwatch"/>
+				<!-- Extra added -->
+				<entry key="Asianpaintsb2bStyleVariantProduct.style" value="styleSwatch"/>
 			</map>
 		</property>
 	</bean>

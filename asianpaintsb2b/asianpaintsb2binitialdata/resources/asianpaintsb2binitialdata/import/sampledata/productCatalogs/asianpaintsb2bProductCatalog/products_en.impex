@@ -141,3 +141,10 @@ UPDATE Product;code[unique=true];$catalogVersion;name[lang=$lang];summary[lang=$
 #;R0011_L;;exterior vanish 10L(Red);Smooth & high performance luxury finishes;;;L
 #;G0011_M;;exterior vanish 5L(Green);Smooth & high performance luxury finishes;;;M
 #;G0011_L;;exterior vanish 10L(Green);Smooth & high performance luxury finishes;;;L
+
+;0012;;concrete-machine;This Colour Coating  is a long lasting film that keeps your house as good as new for a long time
+;0013;;concrete-spraying-machine;This Colour Coating  is a long lasting film that keeps your house as good as new for a long time
+;0014;;flooring-machine;This Colour Coating  is a long lasting film that keeps your house as good as new for a long time
+;0015;;Thicker-flooring-machine;This Colour Coating  is a long lasting film that keeps your house as good as new for a long time
+
+

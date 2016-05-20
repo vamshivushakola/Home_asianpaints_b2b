@@ -14,7 +14,11 @@ UPDATE Category;code[unique=true];$catalogVersion;name[lang=$lang]
  ;1;;Asianpaintsb2b Catalogue;
  ;100;;Paints;
  ;200;;Painting Aid;
+ ;300;;Wall Putty Sprayers
  ;101;;Interior Paints;
  ;102;;Exterior Paints;
  ;201;;Interior Painting Aid;
- ;202;;Exterior Painting Aid;	
+ ;202;;Exterior Painting Aid;
+ ;301;;Wall Sprayers;
+ ;302;;Floor Sprayers;
+ 	

@@ -54,6 +54,10 @@ INSERT_UPDATE StockLevel;available;warehouse(code)[unique=true];inStockStatus(co
 ;100;warehouse_e;forceInStock;1;0;0;0;0010;0
 ;100;warehouse_e;forceInStock;1;0;0;0;0011;0
 
+;100;warehouse_e;forceInStock;1;0;0;0;0012;0
+;100;warehouse_e;forceInStock;1;0;0;0;0013;0
+;100;warehouse_e;forceInStock;1;0;0;0;0014;0
+;100;warehouse_e;forceInStock;1;0;0;0;0015;0
 
 UPDATE Product;code[unique=true];$catalogVersion;stockLevels(productCode,warehouse(code));vendors(code)
 
@@ -80,3 +84,8 @@ UPDATE Product;code[unique=true];$catalogVersion;stockLevels(productCode,warehou
 ;0009;;0009:warehouse_e;asianpaintsb2b
 ;0010;;0010:warehouse_e;asianpaintsb2b
 ;0011;;0011:warehouse_e;asianpaintsb2b
+
+;0012;;0012:warehouse_e;asianpaintsb2b
+;0013;;0013:warehouse_e;asianpaintsb2b
+;0014;;0014:warehouse_e;asianpaintsb2b
+;0015;;0015:warehouse_e;asianpaintsb2b

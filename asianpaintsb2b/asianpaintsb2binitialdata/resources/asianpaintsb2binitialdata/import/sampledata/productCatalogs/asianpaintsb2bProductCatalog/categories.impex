@@ -13,16 +13,22 @@ INSERT_UPDATE Category;code[unique=true];allowedPrincipals(uid)[default='custome
  ;1
  ;100
  ;200
+ ;300
  ;101
  ;102
  ;201	
  ;202
+ ;301
+ ;302
 
 # Insert Category Structure
 INSERT_UPDATE CategoryCategoryRelation;$categories;$supercategories
  ;100;1
  ;200;1
+ ;300;1
  ;101;100
  ;102;100
  ;201;200
  ;202;200
+ ;301;300
+ ;302;300
