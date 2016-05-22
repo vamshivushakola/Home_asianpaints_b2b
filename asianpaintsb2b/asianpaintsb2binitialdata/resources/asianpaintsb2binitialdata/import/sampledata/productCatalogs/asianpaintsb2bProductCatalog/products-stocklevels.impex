@@ -45,7 +45,26 @@ INSERT_UPDATE StockLevel;available;warehouse(code)[unique=true];inStockStatus(co
 
 
 ;100;warehouse_e;forceInStock;1;0;0;0;0003;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0003;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0003;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0003;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0003_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0003_L;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0003_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0003_L;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0003_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0003_L;0
+
 ;100;warehouse_e;forceInStock;1;0;0;0;0004;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0004;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0004;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0004;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0004_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;B0004_L;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0004_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;R0004_L;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0004_M;0
+;100;warehouse_e;forceInStock;0;0;0;0;G0004_L;0
 
 ;100;warehouse_e;forceInStock;1;0;0;0;0005;0
 ;100;warehouse_e;forceInStock;0;0;0;0;B0005;0
@@ -98,9 +117,39 @@ UPDATE Product;code[unique=true];$catalogVersion;stockLevels(productCode,warehou
 ;G0002_L;;0002:warehouse_e;asianpaintsb2b
 
 ;0003;;0003:warehouse_e;asianpaintsb2b
+;B0003;;0003:warehouse_e;asianpaintsb2b
+;R0003;;0003:warehouse_e;asianpaintsb2b
+;G0003;;0003:warehouse_e;asianpaintsb2b
+;B0003_M;;0003:warehouse_e;asianpaintsb2b
+;B0003_L;;0003:warehouse_e;asianpaintsb2b
+;R0003_M;;0003:warehouse_e;asianpaintsb2b
+;R0003_L;;0003:warehouse_e;asianpaintsb2b
+;G0003_M;;0003:warehouse_e;asianpaintsb2b
+;G0003_L;;0003:warehouse_e;asianpaintsb2b
 
 ;0004;;0004:warehouse_e;asianpaintsb2b
+;B0004;;0004:warehouse_e;asianpaintsb2b
+;R0004;;0004:warehouse_e;asianpaintsb2b
+;G0004;;0004:warehouse_e;asianpaintsb2b
+;B0004_M;;0004:warehouse_e;asianpaintsb2b
+;B0004_L;;0004:warehouse_e;asianpaintsb2b
+;R0004_M;;0004:warehouse_e;asianpaintsb2b
+;R0004_L;;0004:warehouse_e;asianpaintsb2b
+;G0004_M;;0004:warehouse_e;asianpaintsb2b
+;G0004_L;;0004:warehouse_e;asianpaintsb2b
+
+
 ;0005;;0005:warehouse_e;asianpaintsb2b
+;B0005;;0005:warehouse_e;asianpaintsb2b
+;R0005;;0005:warehouse_e;asianpaintsb2b
+;G0005;;0005:warehouse_e;asianpaintsb2b
+;B0005_M;;0005:warehouse_e;asianpaintsb2b
+;B0005_L;;0005:warehouse_e;asianpaintsb2b
+;R0005_M;;0005:warehouse_e;asianpaintsb2b
+;R0005_L;;0005:warehouse_e;asianpaintsb2b
+;G0005_M;;0005:warehouse_e;asianpaintsb2b
+;G0005_L;;0005:warehouse_e;asianpaintsb2b
+
 ;0006;;0006:warehouse_e;asianpaintsb2b
 ;0007;;0007:warehouse_e;asianpaintsb2b
 ;0008;;0008:warehouse_e;asianpaintsb2b

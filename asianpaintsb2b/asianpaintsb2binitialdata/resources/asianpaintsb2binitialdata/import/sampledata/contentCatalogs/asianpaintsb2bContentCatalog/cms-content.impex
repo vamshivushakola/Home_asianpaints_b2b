@@ -552,12 +552,12 @@ INSERT_UPDATE BannerComponent;$contentCV[unique=true];uid[unique=true];name;&com
 ;;QualityInspiresBanner;Quality Inspires Banner;QualityInspiresBanner;/
 ;;DeepikaBanner;Deepika Banner;DeepikaBanner;/
 
-;;Asianpaints_Colour;Asian Paints Colour;Asianpaints_Colour;/
-;;Boxes_colours;Boxes Colours;Boxes_colours;/
-;;Colour_Mixing;Colour Mixing;Colour_Mixing;/
-;;Colour_Paints;Colour Paints;Colour_Paints;/
-;;Painting_Aid;Painting Aid;Painting_Aid;/
-;;Thick_Colours;Thick Colours;Thick_Colours;/
+;;concrete-machine;Concrete Colouring Machine;concrete-machine;/
+;;concrete-spraying-machine;Concrete Spraying Machine;concrete-spraying-machine;/
+#;;Colour_Mixing;Colour Mixing;Colour_Mixing;/
+#;;Colour_Paints;Colour Paints;Colour_Paints;/
+;;Thicker-flooring-machine;Thick Colour Flooring Machine;Thicker-flooring-machine;/
+;;flooring-machine;Flooring Colouring Machine;flooring-machine;/
 
 #### Slots 2A 2B 2C
 #;;SeeWhatInspiringOthersComponent;See What Inspiring Others Thumbnail Detail;SeeWhatInspiringOthersComponent;/
@@ -579,7 +579,7 @@ INSERT_UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];name;active;c
 #;;Section2CSlot-Homepage;Section2C Slot for Homepage;true;HomeAwakenArtistComponent
 
 ;;Section3Slot-Homepage;Section3 Slot for Homepage;true;AsianpaintsHomepageProductCarouselComponent
-;;Section4Slot-Homepage;Section4 Slot for Homepage;true;Boxes_colours,Colour_Mixing,Colour_Paints,Thick_Colours
+;;Section4Slot-Homepage;Section4 Slot for Homepage;true;concrete-machine,concrete-spraying-machine,Thicker-flooring-machine,flooring-machine
 ;;Section5Slot-Homepage;Section5 Slot for Homepage;true;NextDayDeliveryBanner
 
 INSERT_UPDATE ContentSlotForPage;$contentCV[unique=true];uid[unique=true];position[unique=true];page(uid,$contentCV)[unique=true][default='homepage'];contentSlot(uid,$contentCV)[unique=true]

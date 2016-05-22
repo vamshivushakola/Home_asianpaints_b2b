@@ -92,11 +92,11 @@ INSERT_UPDATE Media;$contentCV[unique=true];code[unique=true];@media[translator=
 #;;HomeLetSpeak.jpg;$siteResource/images/banners/site/HomeLetSpeak.jpg;;HomeLetSpeak.jpg;;"Home Let Speak"
 
 #;;Asianpaints_Colour.jpg;$siteResource/images/banners/site/Asianpaints_Colour.jpg;;Asianpaints_Colour.jpg;;"Asianpaints Colour"
-;;Boxes_colours.jpg;$siteResource/images/banners/site/Boxes_colours.jpg;;Boxes_colours.jpg;;"Asianpaints Colour"
-;;Colour_Mixing.jpg;$siteResource/images/banners/site/Colour_Mixing.jpg;;Colour_Mixing.jpg;;"Colour Mixing"
-;;Colour_Paints.jpg;$siteResource/images/banners/site/Colour_Paints.jpg;;Colour_Paints.jpg;;"Colour Paints"
+;;concrete-machine.jpg;$siteResource/images/banners/site/concrete-machine.jpg;;concrete-machine.jpg;;"Concrete Colouring Machine"
+;;concrete-spraying-machine.jpg;$siteResource/images/banners/site/concrete-spraying-machine.jpg;;concrete-spraying-machine.jpg;;"Concrete Spraying Machine"
+;;Thicker-flooring-machine.jpg;$siteResource/images/banners/site/Thicker-flooring-machine.jpg;;Thicker-flooring-machine.jpg;;"Thick Colour Flooring Machine"
 #;;Painting_Aid.jpg;$siteResource/images/banners/site/Painting_Aid.jpg;;Painting_Aid.jpg;;"Painting Aid"
-;;Thick_Colours.jpg;$siteResource/images/banners/site/Thick_Colours.jpg;;Thick_Colours.jpg;;"Thick Colours"
+;;flooring-machine.jpg;$siteResource/images/banners/site/flooring-machine.jpg;;flooring-machine.jpg;;"Floor Colouring Machine"
 
 
 UPDATE SimpleBannerComponent;$contentCV[unique=true];uid[unique=true];$picture[lang=$lang]
@@ -111,11 +111,11 @@ UPDATE BannerComponent;$contentCV[unique=true];uid[unique=true];headline[lang=$l
 ;;DeepikaBanner;Deepika Banner;Deepika.jpg;
 
 #;;Asianpaints_Colour;Asian Paints Colour;Asianpaints_Colour.jpg;
-;;Boxes_colours;Boxes Colours;Boxes_colours.jpg;
-;;Colour_Mixing;Colour Mixing;Colour_Mixing.jpg;
-;;Colour_Paints;Colour Paints;Colour_Paints.jpg;
+;;concrete-machine;Concrete Colouring Machine;concrete-machine.jpg;
+;;concrete-spraying-machine;Concrete Spraying Machine;concrete-spraying-machine.jpg;
+;;Thicker-flooring-machine;Thick Colouring Machine;Thicker-flooring-machine.jpg;
 #;;Painting_Aid;Painting Aid;Painting_Aid.jpg;
-;;Thick_Colours;Thick Colours;Thick_Colours.jpg;
+;;flooring-machine;Flooring Machine;flooring-machine.jpg;
 
 
 #;;ComingSoonBanner;Coming Soon;ComingSoonBanner.jpg;	

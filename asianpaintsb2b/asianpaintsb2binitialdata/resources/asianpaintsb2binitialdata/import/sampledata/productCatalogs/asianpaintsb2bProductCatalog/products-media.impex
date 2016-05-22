@@ -30,7 +30,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 
 
 ;1200Wx1200H;/1200Wx1200H/interior_roller_350.jpg;$siteResource/images/1200Wx1200H/interior_roller_350.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/interior_roller_blue.jpg;$siteResource/images/1200Wx1200H/interior_roller_blue.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/interior_roller_green.jpg;$siteResource/images/1200Wx1200H/interior_roller_green.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/interior_roller_red.jpg;$siteResource/images/1200Wx1200H/interior_roller_red.jpg;;;images
+
 ;1200Wx1200H;/1200Wx1200H/exterior_roller_550.jpg;$siteResource/images/1200Wx1200H/exterior_roller_550.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/exterior_roller_blue.jpg;$siteResource/images/1200Wx1200H/exterior_roller_blue.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/exterior_roller_green.jpg;$siteResource/images/1200Wx1200H/exterior_roller_green.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/exterior_roller_red.jpg;$siteResource/images/1200Wx1200H/exterior_roller_red.jpg;;;images
 
 ;1200Wx1200H;/1200Wx1200H/Apcolite.jpg;$siteResource/images/1200Wx1200H/Apcolite.jpg;;;images
 ;1200Wx1200H;/1200Wx1200H/Apcolite_blue.jpg;$siteResource/images/1200Wx1200H/Apcolite_blue.jpg;;;images
@@ -60,7 +67,15 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;515Wx515H;/515Wx515H/ApexUltima_thum_red.jpg;$siteResource/images/515Wx515H/ApexUltima_thum_red.jpg;;;images
 
 ;515Wx515H;/515Wx515H/interior_roller_350.jpg;$siteResource/images/515Wx515H/interior_roller_350.jpg;;;images
+;515Wx515H;/515Wx515H/interior_roller_blue.jpg;$siteResource/images/515Wx515H/interior_roller_blue.jpg;;;images
+;515Wx515H;/515Wx515H/interior_roller_green.jpg;$siteResource/images/515Wx515H/interior_roller_green.jpg;;;images
+;515Wx515H;/515Wx515H/interior_roller_red.jpg;$siteResource/images/515Wx515H/interior_roller_red.jpg;;;images
+
 ;515Wx515H;/515Wx515H/exterior_roller_550.jpg;$siteResource/images/515Wx515H/exterior_roller_550.jpg;;;images
+;515Wx515H;/515Wx515H/exterior_roller_blue.jpg;$siteResource/images/515Wx515H/exterior_roller_blue.jpg;;;images
+;515Wx515H;/515Wx515H/exterior_roller_green.jpg;$siteResource/images/515Wx515H/exterior_roller_green.jpg;;;images
+;515Wx515H;/515Wx515H/exterior_roller_red.jpg;$siteResource/images/515Wx515H/exterior_roller_red.jpg;;;images
+
 
 ;515Wx515H;/515Wx515H/Apcolite.jpg;$siteResource/images/515Wx515H/Apcolite.jpg;;;images
 ;515Wx515H;/515Wx515H/Apcolite_blue.jpg;$siteResource/images/515Wx515H/Apcolite_blue.jpg;;;images
@@ -91,7 +106,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;300Wx300H;/300Wx300H/ApexUltima_thum_red.jpg;$siteResource/images/300Wx300H/ApexUltima_thum_red.jpg;;;images
 
 ;300Wx300H;/300Wx300H/interior_roller_350.jpg;$siteResource/images/300Wx300H/interior_roller_350.jpg;;;images
+;300Wx300H;/300Wx300H/interior_roller_blue.jpg;$siteResource/images/300Wx300H/interior_roller_blue.jpg;;;images
+;300Wx300H;/300Wx300H/interior_roller_green.jpg;$siteResource/images/300Wx300H/interior_roller_green.jpg;;;images
+;300Wx300H;/300Wx300H/interior_roller_red.jpg;$siteResource/images/300Wx300H/interior_roller_red.jpg;;;images
+
 ;300Wx300H;/300Wx300H/exterior_roller_550.jpg;$siteResource/images/300Wx300H/exterior_roller_550.jpg;;;images
+;300Wx300H;/300Wx300H/exterior_roller_blue.jpg;$siteResource/images/300Wx300H/exterior_roller_blue.jpg;;;images
+;300Wx300H;/300Wx300H/exterior_roller_green.jpg;$siteResource/images/300Wx300H/exterior_roller_green.jpg;;;images
+;300Wx300H;/300Wx300H/exterior_roller_red.jpg;$siteResource/images/300Wx300H/exterior_roller_red.jpg;;;images
 
 ;300Wx300H;/300Wx300H/Apcolite.jpg;$siteResource/images/300Wx300H/Apcolite.jpg;;;images
 ;300Wx300H;/300Wx300H/Apcolite_blue.jpg;$siteResource/images/300Wx300H/Apcolite_blue.jpg;;;images
@@ -122,7 +144,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;96Wx96H;/96Wx96H/ApexUltima_thum_red.jpg;$siteResource/images/96Wx96H/ApexUltima_thum_red.jpg;;;images
 
 ;96Wx96H;/96Wx96H/interior_roller_350.jpg;$siteResource/images/96Wx96H/interior_roller_350.jpg;;;images
+;96Wx96H;/96Wx96H/interior_roller_blue.jpg;$siteResource/images/96Wx96H/interior_roller_blue.jpg;;;images
+;96Wx96H;/96Wx96H/interior_roller_green.jpg;$siteResource/images/96Wx96H/interior_roller_green.jpg;;;images
+;96Wx96H;/96Wx96H/interior_roller_red.jpg;$siteResource/images/96Wx96H/interior_roller_red.jpg;;;images
+
 ;96Wx96H;/96Wx96H/exterior_roller_550.jpg;$siteResource/images/96Wx96H/exterior_roller_550.jpg;;;images
+;96Wx96H;/96Wx96H/exterior_roller_blue.jpg;$siteResource/images/96Wx96H/exterior_roller_blue.jpg;;;images
+;96Wx96H;/96Wx96H/exterior_roller_green.jpg;$siteResource/images/96Wx96H/exterior_roller_green.jpg;;;images
+;96Wx96H;/96Wx96H/exterior_roller_red.jpg;$siteResource/images/96Wx96H/exterior_roller_red.jpg;;;images
 
 ;96Wx96H;/96Wx96H/Apcolite.jpg;$siteResource/images/96Wx96H/Apcolite.jpg;;;images
 ;96Wx96H;/96Wx96H/Apcolite_blue.jpg;$siteResource/images/96Wx96H/Apcolite_blue.jpg;;;images
@@ -153,8 +182,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;65Wx65H;/65Wx65H/ApexUltima_thum_red.jpg;$siteResource/images/65Wx65H/ApexUltima_thum_red.jpg;;;images
 
 ;65Wx65H;/65Wx65H/interior_roller_350.jpg;$siteResource/images/65Wx65H/interior_roller_350.jpg;;;images
+;65Wx65H;/65Wx65H/interior_roller_blue.jpg;$siteResource/images/65Wx65H/interior_roller_blue.jpg;;;images
+;65Wx65H;/65Wx65H/interior_roller_green.jpg;$siteResource/images/65Wx65H/interior_roller_green.jpg;;;images
+;65Wx65H;/65Wx65H/interior_roller_red.jpg;$siteResource/images/65Wx65H/interior_roller_red.jpg;;;images
 
 ;65Wx65H;/65Wx65H/exterior_roller_550.jpg;$siteResource/images/65Wx65H/exterior_roller_550.jpg;;;images
+;65Wx65H;/65Wx65H/exterior_roller_blue.jpg;$siteResource/images/65Wx65H/exterior_roller_blue.jpg;;;images
+;65Wx65H;/65Wx65H/exterior_roller_green.jpg;$siteResource/images/65Wx65H/exterior_roller_green.jpg;;;images
+;65Wx65H;/65Wx65H/exterior_roller_red.jpg;$siteResource/images/65Wx65H/exterior_roller_red.jpg;;;images
 
 ;65Wx65H;/65Wx65H/Apcolite.jpg;$siteResource/images/65Wx65H/Apcolite.jpg;;;images
 ;65Wx65H;/65Wx65H/Apcolite_blue.jpg;$siteResource/images/65Wx65H/Apcolite_blue.jpg;;;images
@@ -184,7 +219,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;30Wx30H;/30Wx30H/ApexUltima_thum_red.jpg;$siteResource/images/30Wx30H/ApexUltima_thum_red.jpg;;;images
 
 ;30Wx30H;/30Wx30H/interior_roller_350.jpg;$siteResource/images/30Wx30H/interior_roller_350.jpg;;;images
+;30Wx30H;/30Wx30H/interior_roller_blue.jpg;$siteResource/images/30Wx30H/interior_roller_blue.jpg;;;images
+;30Wx30H;/30Wx30H/interior_roller_green.jpg;$siteResource/images/30Wx30H/interior_roller_green.jpg;;;images
+;30Wx30H;/30Wx30H/interior_roller_red.jpg;$siteResource/images/30Wx30H/interior_roller_red.jpg;;;images
+
 ;30Wx30H;/30Wx30H/exterior_roller_550.jpg;$siteResource/images/30Wx30H/exterior_roller_550.jpg;;;images
+;30Wx30H;/30Wx30H/exterior_roller_blue.jpg;$siteResource/images/30Wx30H/exterior_roller_blue.jpg;;;images
+;30Wx30H;/30Wx30H/exterior_roller_green.jpg;$siteResource/images/30Wx30H/exterior_roller_green.jpg;;;images
+;30Wx30H;/30Wx30H/exterior_roller_red.jpg;$siteResource/images/30Wx30H/exterior_roller_red.jpg;;;images
 
 ;30Wx30H;/30Wx30H/Apcolite.jpg;$siteResource/images/30Wx30H/Apcolite.jpg;;;images
 ;30Wx30H;/30Wx30H/Apcolite_blue.jpg;$siteResource/images/30Wx30H/Apcolite_blue.jpg;;;images
@@ -266,13 +308,13 @@ UPDATE Asianpaintsb2bStyleVariantProduct;code[unique=true];$picture;$thumbnail;$
 ;R0002;/300Wx300H/ApexUltima_thum_red.jpg;/96Wx96H/ApexUltima_thum_red.jpg;/515Wx515H/ApexUltima_thum_red.jpg,/300Wx300H/ApexUltima_thum_red.jpg,/96Wx96H/ApexUltima_thum_red.jpg,/65Wx65H/ApexUltima_thum_red.jpg,/30Wx30H/ApexUltima_thum_red.jpg;/300Wx300H/ApexUltima_thum_red.jpg;/96Wx96H/royale-aspira_red.jpg;;
 ;G0002;/300Wx300H/ApexUltima_thum_green.jpg;/96Wx96H/ApexUltima_thum_green.jpg;/515Wx515H/ApexUltima_thum_green.jpg,/300Wx300H/ApexUltima_thum_green.jpg,/96Wx96H/ApexUltima_thum_green.jpg,/65Wx65H/ApexUltima_thum_green.jpg,/30Wx30H/ApexUltima_thum_green.jpg;/300Wx300H/ApexUltima_thum_green.jpg;/96Wx96H/ApexUltima_thum_green.jpg;;
 
-;B0003;/300Wx300H/interior_roller_350_blue.jpg;/96Wx96H/interior_roller_350_blue.jpg;/515Wx515H/interior_roller_350_blue.jpg,/300Wx300H/interior_roller_350_blue.jpg,/96Wx96H/interior_roller_350_blue.jpg,/65Wx65H/interior_roller_350_blue.jpg,/30Wx30H/interior_roller_350_blue.jpg;/300Wx300H/interior_roller_350_blue.jpg;/96Wx96H/interior_roller_350_blue.jpg;;
-;R0003;/300Wx300H/interior_roller_350_red.jpg;/96Wx96H/interior_roller_350_red.jpg;/515Wx515H/interior_roller_350_red.jpg,/300Wx300H/interior_roller_350_red.jpg,/96Wx96H/interior_roller_350_red.jpg,/65Wx65H/interior_roller_350_red.jpg,/30Wx30H/interior_roller_350_red.jpg;/300Wx300H/interior_roller_350_red.jpg;/96Wx96H/royale-aspira_red.jpg;;
-;G0003;/300Wx300H/interior_roller_350_green.jpg;/96Wx96H/interior_roller_350_green.jpg;/515Wx515H/interior_roller_350_green.jpg,/300Wx300H/interior_roller_350_green.jpg,/96Wx96H/interior_roller_350_green.jpg,/65Wx65H/interior_roller_350_green.jpg,/30Wx30H/interior_roller_350_green.jpg;/300Wx300H/interior_roller_350_green.jpg;/96Wx96H/interior_roller_350_green.jpg;;
+;B0003;/300Wx300H/interior_roller_blue.jpg;/96Wx96H/interior_roller_blue.jpg;/515Wx515H/interior_roller_blue.jpg,/300Wx300H/interior_roller_blue.jpg,/96Wx96H/interior_roller_blue.jpg,/65Wx65H/interior_roller_blue.jpg,/30Wx30H/interior_roller_blue.jpg;/300Wx300H/interior_roller_blue.jpg;/96Wx96H/interior_roller_blue.jpg;;
+;R0003;/300Wx300H/interior_roller_red.jpg;/96Wx96H/interior_roller_red.jpg;/515Wx515H/interior_roller_red.jpg,/300Wx300H/interior_roller_red.jpg,/96Wx96H/interior_roller_red.jpg,/65Wx65H/interior_roller_red.jpg,/30Wx30H/interior_roller_red.jpg;/300Wx300H/interior_roller_red.jpg;/96Wx96H/royale-aspira_red.jpg;;
+;G0003;/300Wx300H/interior_roller_green.jpg;/96Wx96H/interior_roller_green.jpg;/515Wx515H/interior_roller_green.jpg,/300Wx300H/interior_roller_green.jpg,/96Wx96H/interior_roller_green.jpg,/65Wx65H/interior_roller_green.jpg,/30Wx30H/interior_roller_green.jpg;/300Wx300H/interior_roller_green.jpg;/96Wx96H/interior_roller_green.jpg;;
 
-;B0004;/300Wx300H/exterior_roller_550_blue.jpg;/96Wx96H/exterior_roller_550_blue.jpg;/515Wx515H/exterior_roller_550_blue.jpg,/300Wx300H/exterior_roller_550_blue.jpg,/96Wx96H/exterior_roller_550_blue.jpg,/65Wx65H/exterior_roller_550_blue.jpg,/30Wx30H/exterior_roller_550_blue.jpg;/300Wx300H/exterior_roller_550_blue.jpg;/96Wx96H/exterior_roller_550_blue.jpg;;
-;R0004;/300Wx300H/exterior_roller_550_red.jpg;/96Wx96H/exterior_roller_550_red.jpg;/515Wx515H/exterior_roller_550_red.jpg,/300Wx300H/exterior_roller_550_red.jpg,/96Wx96H/exterior_roller_550_red.jpg,/65Wx65H/exterior_roller_550_red.jpg,/30Wx30H/exterior_roller_550_red.jpg;/300Wx300H/exterior_roller_550_red.jpg;/96Wx96H/royale-aspira_red.jpg;;
-;G0004;/300Wx300H/exterior_roller_550_green.jpg;/96Wx96H/exterior_roller_550_green.jpg;/515Wx515H/exterior_roller_550_green.jpg,/300Wx300H/exterior_roller_550_green.jpg,/96Wx96H/exterior_roller_550_green.jpg,/65Wx65H/exterior_roller_550_green.jpg,/30Wx30H/exterior_roller_550_green.jpg;/300Wx300H/exterior_roller_550_green.jpg;/96Wx96H/exterior_roller_550_green.jpg;;
+;B0004;/300Wx300H/exterior_roller_blue.jpg;/96Wx96H/exterior_roller_blue.jpg;/515Wx515H/exterior_roller_blue.jpg,/300Wx300H/exterior_roller_blue.jpg,/96Wx96H/exterior_roller_blue.jpg,/65Wx65H/exterior_roller_blue.jpg,/30Wx30H/exterior_roller_blue.jpg;/300Wx300H/exterior_roller_blue.jpg;/96Wx96H/exterior_roller_blue.jpg;;
+;R0004;/300Wx300H/exterior_roller_red.jpg;/96Wx96H/exterior_roller_red.jpg;/515Wx515H/exterior_roller_red.jpg,/300Wx300H/exterior_roller_red.jpg,/96Wx96H/exterior_roller_red.jpg,/65Wx65H/exterior_roller_red.jpg,/30Wx30H/exterior_roller_red.jpg;/300Wx300H/exterior_roller_red.jpg;/96Wx96H/royale-aspira_red.jpg;;
+;G0004;/300Wx300H/exterior_roller_green.jpg;/96Wx96H/exterior_roller_green.jpg;/515Wx515H/exterior_roller_green.jpg,/300Wx300H/exterior_roller_green.jpg,/96Wx96H/exterior_roller_green.jpg,/65Wx65H/exterior_roller_green.jpg,/30Wx30H/exterior_roller_green.jpg;/300Wx300H/exterior_roller_green.jpg;/96Wx96H/exterior_roller_green.jpg;;
 
 ;B0005;/300Wx300H/Apcolite_blue.jpg;/96Wx96H/Apcolite_blue.jpg;/515Wx515H/Apcolite_blue.jpg,/300Wx300H/Apcolite_blue.jpg,/96Wx96H/Apcolite_blue.jpg,/65Wx65H/Apcolite_blue.jpg,/30Wx30H/Apcolite_blue.jpg;/300Wx300H/Apcolite_blue.jpg;/96Wx96H/Apcolite_blue.jpg;;
 ;R0005;/300Wx300H/Apcolite_red.jpg;/96Wx96H/Apcolite_red.jpg;/515Wx515H/Apcolite_red.jpg,/300Wx300H/Apcolite_red.jpg,/96Wx96H/Apcolite_red.jpg,/65Wx65H/Apcolite_red.jpg,/30Wx30H/Apcolite_red.jpg;/300Wx300H/Apcolite_red.jpg;/96Wx96H/royale-aspira_red.jpg;;

@@ -101,7 +101,8 @@ UPDATE Product;code[unique=true];$catalogVersion;name[lang=$lang];summary[lang=$
 ;G0007_M;;Extend Roller 5L(Green);Smooth & high performance luxury finishes;;;M
 ;G0007_L;;Extend Roller 10L(Green);Smooth & high performance luxury finishes;;;L
 
-#;0008;;royalplay_galaxy;when applied on a Royale Wall, creates a subtle sparkly appearance on the wall;It modifies your existing wall with additional coats using Rollers without much effort or special skill required by the applicator.
+;0008;;royalplay_galaxy;when applied on a Royale Wall, creates a subtle sparkly appearance on the wall;It modifies your existing wall with additional coats using Rollers without much effort or special skill required by the applicator.
+
 #;B0008;;royalplay_galaxy;Smooth & high performance luxury finishes;;Blue
 #;R0008;;royalplay_galaxy;Smooth & high performance luxury finishes;;Red
 #;G0008;;royalplay_galaxy;Smooth & high performance luxury finishes;;Green
