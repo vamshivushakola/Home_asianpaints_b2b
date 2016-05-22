@@ -71,6 +71,8 @@
 	</c:when>
 	<c:otherwise>
 	
+	
+	
 <%-- Determine if product is one of apparel style or size variant --%>
 		<c:if test="${product.variantType eq 'ApparelStyleVariantProduct'}">
 			<c:set var="variantStyles" value="${product.variantOptions}" />
@@ -86,7 +88,33 @@
 			<c:set var="currentStyleUrl" value="${product.baseOptions[1].selected.url}" />
 		</c:if>
 		<c:url value="${currentStyleUrl}" var="currentStyledProductUrl"/>
-		<%-- Determine if product is other variant --%>
+		
+		
+		
+<!--Vamshi Added this below code for getting Asian Paints small variant images  -->
+		
+<%-- Determine if product is one of Asianpaintsb2b style or size variant --%>		
+		<c:if test="${product.variantType eq 'Asianpaintsb2bStyleVariantProduct'}">
+			<c:set var="variantStyles" value="${product.variantOptions}" />
+		</c:if>
+		<c:if test="${(not empty product.baseOptions[0].options) and (product.baseOptions[0].variantType eq 'Asianpaintsb2bStyleVariantProduct')}">
+			<c:set var="variantStyles" value="${product.baseOptions[0].options}" />
+			<c:set var="variantSizes" value="${product.variantOptions}" />
+			<c:set var="currentStyleUrl" value="${product.url}" />
+		</c:if>
+		<c:if test="${(not empty product.baseOptions[1].options) and (product.baseOptions[0].variantType eq 'Asianpaintsb2bSizeVariantProduct')}">
+			<c:set var="variantStyles" value="${product.baseOptions[1].options}" />
+			<c:set var="variantSizes" value="${product.baseOptions[0].options}" />
+			<c:set var="currentStyleUrl" value="${product.baseOptions[1].selected.url}" />
+		</c:if>
+		
+		<c:url value="${currentStyleUrl}" var="currentStyledProductUrl"/>
+						
+<!--Vamshi Ended this above code  -->
+				
+				
+				
+<%-- Determine if product is other variant --%>
 		<c:if test="${empty variantStyles}">
 			<c:if test="${not empty product.variantOptions}">
 				<c:set var="variantOptions" value="${product.variantOptions}" />
@@ -185,7 +213,9 @@
 		<c:if test="${not empty variantOptions}">
 			<div class="variant_options">
 				<div class="size">
-					<select id="variant" class="variant-select" disabled="disabled">
+	<!--Vamshi Commented this below code  -->	
+			
+					<!-- <select id="variant" class="variant-select" disabled="disabled">
 						<option selected="selected" disabled="disabled"><spring:theme code="product.variants.select.variant"/></option>
 						<c:forEach items="${variantOptions}" var="variantOption">
 							<c:set var="optionsString" value="" />
@@ -217,7 +247,10 @@
 								${optionsString}&nbsp;<format:price priceData="${variantOption.priceData}"/>&nbsp;&nbsp;${variantOption.stock.stockLevel}
 							</option>
 						</c:forEach>
-					</select>
+					</select> 
+					-->
+<!--Vamshi ended this commented above code  -->
+					
 				</div>
 			</div>
 		</c:if>

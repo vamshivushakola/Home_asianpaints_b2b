@@ -44,6 +44,7 @@ UPDATE Product;code[unique=true];$catalogVersion;name[lang=$lang];summary[lang=$
 ;B0003;;Interior Roller;Smooth & high performance luxury finishes;;Blue
 ;R0003;;Interior Roller;Smooth & high performance luxury finishes;;Red
 ;G0003;;Interior Roller;Smooth & high performance luxury finishes;;Green
+
 ;B0003_M;;Interior Roller 5L(Blue);Smooth & high performance luxury finishes;;;M
 ;B0003_L;;Interior Roller 10L(Blue);Smooth & high performance luxury finishes;;;L
 ;R0003_M;;Interior Roller 5L(Red);Smooth & high performance luxury finishes;;;M
@@ -55,6 +56,7 @@ UPDATE Product;code[unique=true];$catalogVersion;name[lang=$lang];summary[lang=$
 ;B0004;;Exterior Roller;Smooth & high performance luxury finishes;;Blue
 ;R0004;;Exterior Roller;Smooth & high performance luxury finishes;;Red
 ;G0004;;Exterior Roller;Smooth & high performance luxury finishes;;Green
+
 ;B0004_M;;Exterior Roller 5L(Blue);Smooth & high performance luxury finishes;;;M
 ;B0004_L;;Exterior Roller 10L(Blue);Smooth & high performance luxury finishes;;;L
 ;R0004_M;;Exterior Roller 5L(Red);Smooth & high performance luxury finishes;;;M
@@ -67,6 +69,7 @@ UPDATE Product;code[unique=true];$catalogVersion;name[lang=$lang];summary[lang=$
 ;B0005;;Apcolite;Smooth & high performance luxury finishes;;Blue
 ;R0005;;Apcolite;Smooth & high performance luxury finishes;;Red
 ;G0005;;Apcolite;Smooth & high performance luxury finishes;;Green
+
 ;B0005_M;;Apcolite 5L(Blue);Smooth & high performance luxury finishes;;;M
 ;B0005_L;;Apcolite 10L(Blue);Smooth & high performance luxury finishes;;;L
 ;R0005_M;;Apcolite 5L(Red);Smooth & high performance luxury finishes;;;M
@@ -76,15 +79,15 @@ UPDATE Product;code[unique=true];$catalogVersion;name[lang=$lang];summary[lang=$
 
 ;0006;;Roller Painting Aid;High Performance Smooth For Rolling;This Roller is made from fabric and polyester foam to assure light weight and long lasting.
 
-;B0006;;Roller Painting Aid;Smooth & high performance luxury finishes;;Blue
-;R0006;;Roller Painting Aid;Smooth & high performance luxury finishes;;Red
-;G0006;;Roller Painting Aid;Smooth & high performance luxury finishes;;Green
-;B0006_M;;Roller Painting Aid 5L(Blue);Smooth & high performance luxury finishes;;;M
-;B0006_L;;Roller Painting Aid 10L(Blue);Smooth & high performance luxury finishes;;;L
-;R0006_M;;Roller Painting Aid 5L(Red);Smooth & high performance luxury finishes;;;M
-;R0006_L;;Roller Painting Aid 10L(Red);Smooth & high performance luxury finishes;;;L
-;G0006_M;;Roller Painting Aid 5L(Green);Smooth & high performance luxury finishes;;;M
-;G0006_L;;Roller Painting Aid 10L(Green);Smooth & high performance luxury finishes;;;L
+#;B0006;;Roller Painting Aid;Smooth & high performance luxury finishes;;Blue
+#;R0006;;Roller Painting Aid;Smooth & high performance luxury finishes;;Red
+#;G0006;;Roller Painting Aid;Smooth & high performance luxury finishes;;Green
+#;B0006_M;;Roller Painting Aid 5L(Blue);Smooth & high performance luxury finishes;;;M
+#;B0006_L;;Roller Painting Aid 10L(Blue);Smooth & high performance luxury finishes;;;L
+#;R0006_M;;Roller Painting Aid 5L(Red);Smooth & high performance luxury finishes;;;M
+#;R0006_L;;Roller Painting Aid 10L(Red);Smooth & high performance luxury finishes;;;L
+#;G0006_M;;Roller Painting Aid 5L(Green);Smooth & high performance luxury finishes;;;M
+#;G0006_L;;Roller Painting Aid 10L(Green);Smooth & high performance luxury finishes;;;L
 
 ;0007;;Extend Roller;Extend Roller is used wher the place of Colouring is far away;Work gets done much faster than Brushing. Save on money because of direct roller application of enamels.
 
